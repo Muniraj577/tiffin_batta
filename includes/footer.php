@@ -105,7 +105,7 @@
                 <div class="col-md-6 text-md-start text-center">
                     <div class="copyright ">
                         <p class="mb-0 text-gray">Copyright ©<?php echo date('Y') ?>. All Rights Reserved by <a
-                                target="_blank" rel="" href="">Tiffin Batta</a></p>
+                                target="_blank" rel="" href="" class="text-orange">Tiffin Batta</a></p>
                     </div>
                 </div>
                 <div class="col-md-6">

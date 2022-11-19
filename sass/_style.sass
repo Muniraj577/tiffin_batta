@@ -7,6 +7,8 @@
     background-position: center center
     background-repeat: no-repeat
     background-size: cover
+    .text-desc
+        font-size: 20px
 
 .btn-main , .theme-btn
     color: $white !important
@@ -93,14 +95,6 @@
         width: 100%
         position: relative
         z-index: 1
-.list_data
-    list-style: none
-    li a
-        color: rgb(17, 17, 17)
-        font-weight: 500
-        font-size: 18px
-    li a i
-        color: $color-primary
 .index-testi .owl-theme .owl-nav
     display: none
 .indexpage .carousel-inner
@@ -169,30 +163,10 @@
         background-repeat: no-repeat
         background-size: cover
         padding: 40px 25px 57px 5px
-    .off-title
-        font-size: 44px
-        font-weight: 800
-        line-height: 1em
-        margin-bottom: 10px
-        position: relative
-        color: $text-color
-
-    .off-title span
-        display: block
-
-    .off-section-main
-        text-align: center
-        width: 213px
-        max-width: 213px
-        top: 0px
-        left: 0%
-        position: absolute
-        z-index: 1
     .color-primary
         color: #f43127
-
     .color-sec
-        color: $yellow
+        color: $color-orange
     .off-img img
         margin: 50px 0 -50px 20px
 .special-menu
@@ -205,27 +179,11 @@
         width: 100%
         img
             width: 100%
-    .headding-part
-        .headding-sub
-            font-size: 30px
-            color: $color-primary
-            font-family: 'Pacifico', cursive
-            @media #{$small-only}
-                font-size: 20px
-        .headding-title
-            font-size: 70px
-            line-height: 58px
-            letter-spacing: 2px
-            color: $black
-            @media #{$small-only}
-                font-size: 30px
-                line-height: 30px
     .special-tab
         .nav-tabs
             border: unset
 
         ul
-            background: $white
             display: inline-block
             border-radius: 50px
             @media #{$small-only}
@@ -238,14 +196,17 @@
             color: $black
             transition: all 400ms ease
             font-size: 14px
-            padding: 14px 28px
+            padding: 10px 28px
             letter-spacing: 1px
             cursor: pointer
-            border: 1px solid $color-lighter
+            border: none
             border-radius: 50px
+            background: $secondary-color
             @media #{$small-only}
                 padding: 5px 8px
                 font-size: 13px
+            img
+                margin-right: 10px
             &.active
                 background: $color-primary
                 border-radius: 50px
@@ -262,15 +223,15 @@
         font-size: 18px
         color: $black
         letter-spacing: 1px
-        padding-top: 25px
+        padding-top: 15px
         padding-bottom: 12px
         display: block
         font-weight: 600
         &:hover
             color: $color-primary
     .menu-price
-        font-size: 18px
-        color: $color-primary
+        font-size: 20px
+        color: $footer-text-color
         letter-spacing: 1px
         font-weight: 600
     .menu-des
@@ -280,78 +241,116 @@
         padding-bottom: 12px
     .menu-img .menu-image
         width: 200px
-        height: 200px
-        transition: all 400ms ease
-
+        height: auto
+        transition: all 0.4s ease-in
     .menu-img
         width: 100%
-        height: 200px
-        overflow: hidden
-        margin: 0 auto
-        position: relative
-        transition: all 400ms ease
-        transform: scale(.75)
-        top: 0
+        min-height: 150px
+        &:hover img
+            transform: scale(1.05)
+        .fav-btn
+            position: absolute
+            top: 18px
+            right: 27px
+            font-size: 24px
+            color: #CFC9B4
+            transition: 0.4s
+            &:hover
+                color: $color-red
+    .theme-btn
+        color: $footer-text-color !important
+        background-color: $color-green-lightest
+        border-color: $color-green-lightest
+        font-weight: 600
         &:hover
-            background: $yellow
-            transform: scale(1)
-            border-radius: 20px
-
+            background-color: $color-primary
+            border-color: $color-primary
+            box-shadow: inset 150px 0 0 0 $color-primary
+            color: $white !important
     .card
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px
         border-radius: 30px
-        border: 1px solid #e5e5e5
+        border: none
+        background: $secondary-color
     .card-body
-        padding: 15px
-
-.btn-cart
-    background-color: $color-primary
-    border-color: $color-primary
-    border-radius: 20px
-
-.menu-items
+        padding: 25px 29px 30px
+        text-align: center
+    .bottom-area
+        display: flex
+        align-items: center
+        text-align: center
+        justify-content: center
+.headding-part
+    .headding-sub
+        font-size: 30px
+        color: $color-primary
+        font-family: 'Pacifico', cursive
+        @media #{$small-only}
+            font-size: 20px
+    .headding-title
+        font-size: 70px
+        line-height: 58px
+        letter-spacing: 2px
+        color: $black
+        @media #{$small-only}
+            font-size: 30px
+            line-height: 30px
+.wrap-footer .rating
+    font-size: 14px
+    color: rgba(27, 27, 27, 0.7)
+    font-weight: 600
+    .rating-inner
+        margin: 0 10px
+        display: inline-flex
+        i
+            padding: 0 3px
+            color: #d80027 !important
+.single-blog-wrap
     position: relative
-    display: flex
-    align-items: center
-    justify-content: space-between
-    z-index: 3
-    .food-title
-        background: white
-        padding-right: 10px
-        line-height: 35px
-        font-size: 22px
-        color: $color-primary
-        white-space: nowrap
-        text-overflow: ellipsis
+    border-radius: 12px
+    overflow: hidden
+    margin-bottom: 30px
+    &:hover .thumb img
+        transform: scale(1.05)
+    .thumb
+        border-radius: 12px
         overflow: hidden
-    .price
-        background: white
-        color: $color-primary
-        margin-left: auto
-        font-size: 22px
-        font-weight: bold
-        margin: 3px 0
-        padding-left: 10px
-.food-description
-    color: $black
-    overflow: hidden
-    display: -webkit-box
-    -webkit-line-clamp: 2
-    -webkit-box-orient: vertical
-    min-height: 45px
-    @media #{$small-only}
-        min-height: unset
-.title-description
-    overflow: hidden
-    display: -webkit-box
-    -webkit-line-clamp: 2
-    -webkit-box-orient: vertical
-    min-height: 45px
-    font-style: italic
-    color: $color-darker
-    @media #{$small-only}
-        font-size: 13px
-        min-height: unset
+        height: 340px
+        img
+            border-radius: 12px
+            transition: all 0.4s ease-in
+            height: 100%
+    .wrap-details
+        background-color: #fff
+        position: absolute
+        bottom: 0
+        left: 0
+        border-radius: 6px
+        margin: 20px 15px
+        padding: 18px 19px 20px
+        overflow: hidden
+        h5
+            font-size: 21px
+            font-weight: 500
+            a
+                color: $footer-text-color
+                &:hover
+                    color: $color-primary
+        .wrap-hover-area
+            margin-bottom: 0
+            transition: all 0.4s ease-in
+            ul
+                margin: 0
+                padding: 0
+                li
+                    list-style: none
+                    padding: 5px 0
+                    i
+                        color: $color-primary
+                        margin-top: 5px
+    &:hover .wrap-details .wrap-hover-area
+        margin-bottom: -165px
+
 .ban_image
     position: absolute
     &.img-1
@@ -372,15 +371,7 @@
         @include image-style
         height: 100%
 //counter section
-.count-section
-    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)),url('../img/counter_bg.jpg') center no-repeat fixed
-    background-size: cover
-    .count-number
-        font-size: 72px
-    .count_detail i
-        transition: all 0.3s ease-in-out
-        font-size: 48px
-        color: $yellow
+
 .sec-title-holder
     .sub-title
         font-size: 16px
@@ -418,50 +409,6 @@
     width: 12px
     height: 12px
     border-radius: 50%
-
-// free delivery section
-
-.free-delivery-section
-
-    .free-delivery-content
-        background: linear-gradient(#c80300e0, #c80300e0),url('../img/free.png') center no-repeat
-        border-radius: 0px 50px 0px 50px
-
-    .free_delivery_detail
-        margin: -30px 0 0 0
-        position: relative
-
-        img
-            height: auto
-            max-width: 100%
-            border: none
-            border-radius: 0
-            box-shadow: none
-            position: relative
-            z-index: 1
-        &::after
-            content: url(../img/smoke.png)
-            position: absolute
-            bottom: 10px
-            left: 0
-            z-index: 0
-            animation: down_up infinite 2000ms
-
-    .phone
-        display: inline-block
-        color: $white
-        background: $yellow
-        border-radius: 30px
-        margin-bottom: 0
-
-        padding: 8px 25px
-        box-shadow: 0 20px 30px 0 rgb(0 0 0 / 15%)
-        font-size: 24px
-        a
-            color: #ffffff
-            font-size: 26px
-
-/* mobile nav */
 
 .mobilenav
     display: none !important

@@ -37,14 +37,14 @@
                     <li><a href="catering.php">Catering</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <li class="d-md-none"> <a class="btn theme-btn big text-uppercase mt-3 px-3 w-75" href=""
-                            data-toggle="modal" data-target="#user_login_Modal">Login / Register</a>
+                            data-bs-toggle="modal" data-bs-target="#user_login_Modal">Login / Register</a>
                     </li>
                 </ul>
             </div>
             <ul class="list-unstyled nav-icons mb-0 pt-1 pt-lg-0">
 
                 <!-- Before Login -->
-                <li><a href="" data-toggle="modal" data-target="#user_login_Modal"
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#user_login_Modal"
                         class="btn theme-btn text-uppercase ms-3 bg-orange text-nowrap d-none d-md-block">Login /
                         Register</a>
                 </li>
@@ -83,15 +83,6 @@
     </section>
 </div>
 <?php
-include 'order-option-modal.php';
 include 'login-modal.php';
 include 'sticky-cart-content.php';
-include 'location-modal.php';
-include 'checkout-modal.php';
-include 'add-to-cart-modal.php';
-include 'order-success-modal.php';
-include 'cart-view-modal.php';
-include 'loyalty-modal.php';
-// include 'popup-modal.php';
-
 ?>

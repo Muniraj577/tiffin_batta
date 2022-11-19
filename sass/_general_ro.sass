@@ -75,7 +75,7 @@
 		top: calc(50% + 25px)
 		p, li
 			font-size: .9rem
-						
+
 	.cart-items
 		overflow-x: auto
 	.table
@@ -132,7 +132,7 @@
 #checkout_Modal
 	.modal-dialog
 		max-width: 600px
-	.loyalty-details	
+	.loyalty-details
 		padding: 10px
 		display: flex
 		align-items: center
@@ -193,7 +193,7 @@
 			transition: .4s
 			&:hover
 				background: $color-lighter
-	
+
 		.drop-content
 			border-bottom: 1px solid $color-light
 			display: none
@@ -248,13 +248,13 @@
 
 #cart_view_Modal, .sticky-cart-content
 	.instruction-text *
-		word-break: break-all	
+		word-break: break-all
 	.table
 		th
 			border-top: none
 		.item
 			width: 70%
-		td 
+		td
 			p
 				line-height: 20px
 			&.text-right
@@ -287,7 +287,6 @@
 #card_errors
 	color: $color-error
 	padding-top: 5px
-
 
 #choose_orderdate_Modal, #choose_ordertime_Modal, .modal-scrollable
 	.modal-content
@@ -416,7 +415,6 @@
 					background: $color-secondary
 					color: white
 
-
 			&:hover
 				background: $color-primary
 				color: white
@@ -425,7 +423,7 @@
 				&:hover
 					cursor: not-allowed
 					background: none
-					color: #999	
+					color: #999
 
 .payment-lists
 	.input-group
@@ -464,34 +462,37 @@
 			justify-content: center
 			transition: .3s
 			outline: none
+			padding: 1rem 1rem
+			margin: -1rem -1rem -1rem auto
+			border: none
 			&:hover
-				opacity: .6
+				opacity: .8
 			@media #{$small-only}
 				right: 18px
 				top: 18px
 				color: $color-primary
 				background: none
 				font-size: 2rem
-
+			span
+				font-size: 20px
 .mdtp__wrapper
 	top: 50%
 	transform: translate(-50%, -50%)
 	bottom: unset
 
-.mdtp__wrapper[data-theme='red'] .mdtp__time_holder 
+.mdtp__wrapper[data-theme='red'] .mdtp__time_holder
 	background-color: $color-primary
 .mdtp__wrapper[data-theme='red'] .mdtp__clock .mdtp__clock_dot
 	background-color: $color-primary
-.mdtp__wrapper[data-theme='red'] .mdtp__digit.active:before 
+.mdtp__wrapper[data-theme='red'] .mdtp__digit.active:before
 	background-color: $color-primary
 .mdtp__wrapper[data-theme='red'] .mdtp__digit.active span, .mdtp__wrapper[data-theme='red'] .mdtp__clock .mdtp__digit:not(.digit--disabled) span:hover
 	background-color: $color-primary !important
 
-.mdtp__wrapper[data-theme='red'] .mdtp__clock .mdtp__am.active, .mdtp__wrapper[data-theme='red'] .mdtp__clock .mdtp__pm.active 
+.mdtp__wrapper[data-theme='red'] .mdtp__clock .mdtp__am.active, .mdtp__wrapper[data-theme='red'] .mdtp__clock .mdtp__pm.active
 	background-color: $color-primary
 .mdtp__wrapper[data-theme='red'] .mdtp__button
 	color: $color-primary
-
 
 .custom-switch
 	.custom-control-label
@@ -516,61 +517,18 @@
 			&~.custom-control-label
 				&::after
 					transform: translateX(20px)
-			
+
 .custom-switch .custom-control-input:focus:not(:checked)~.custom-control-label::before
 	border-color: none
 	box-shadow: none
-.custom-switch .custom-control-input:focus~.custom-control-label::before 
+.custom-switch .custom-control-input:focus~.custom-control-label::before
 	box-shadow: none
-.custom-switch input:checked~.custom-control-label::before 
+.custom-switch input:checked~.custom-control-label::before
 	color: $color-primary !important
 	border-color: $color-primary !important
 	background-color: white !important
 
 .custom-switch .custom-control-input:checked~.custom-control-label::after
-	background-color: $color-primary !important
-
-
-.payment-card
-	input:checked 
-		&~ 
-			.custom-control-label
-				border: 1px solid $color-primary !important
-				color: $color-primary
-				transform: scale(1.02)
-
-				&::before 
-					box-shadow: none
-					color: $color-primary !important
-					border-color: $color-primary !important
-					background-color: $color-primary !important
-			
-	.custom-control-label
-		cursor: pointer
-		border: 1px solid $color-lighter
-		transition: .3s
-		&:hover
-			transform: scale(1.02)
-			color: $color-primary !important
-			border: 1px solid $color-primary !important
-	
-			&::before 
-				color: $color-primary !important
-				border-color: $color-primary !important
-				background-color: $color-primary !important
-		&::after
-			display: none
-		&::before
-			top: 50%
-			transform: translateY(-50%)
-			left: 25px
-	.custom-radio
-		padding-left: 0
-
-
-input:checked~.custom-control-label::before 
-	color: $color-primary !important
-	border-color: $color-primary !important
 	background-color: $color-primary !important
 
 label
@@ -702,12 +660,12 @@ label
 	min-height: 200px
 	display: grid
 	place-items: center
-	.svg-cart-icon 
+	.svg-cart-icon
 		svg
 			height: 50px
 			width: 50px
 			fill: #C3C3C3
-	
+
 #not_available_Modal
 	i
 		font-size: 2.8em
@@ -720,7 +678,6 @@ label
 		line-height: 55px
 		border-radius: 50%
 		border: 2px solid $color-red
-
 
 #card-input-box
 	display: none
@@ -775,7 +732,6 @@ label
 	li
 		margin-bottom: 20px
 
-
 .nice-select
 	option
 		color: black
@@ -783,7 +739,7 @@ label
 		opacity: 0.45
 	.list
 		max-height: 220px
-		overflow-y: auto 
+		overflow-y: auto
 		scrollbar-width: thin
 		&::-webkit-scrollbar
 			width: 10px
@@ -879,7 +835,7 @@ label
 					flex-wrap: wrap
 					& > div
 						margin-left: auto
-			
+
 			.profile-inner, .address-inner
 				.form
 					max-width: 800px
@@ -956,7 +912,7 @@ label
 		top: 50%
 		transform: translateY(-50%)
 	input
-		padding-left: 30px !important 
+		padding-left: 30px !important
 
 .selected-delivery-address
 	font-size: 14px !important
@@ -984,7 +940,7 @@ label
 		&::-webkit-scrollbar-thumb
 			background: $color-light
 
-.status   
+.status
 	width: 100%
 	display: block
 	text-align: center
@@ -1001,11 +957,11 @@ label
 
 	&.status-declined
 		color: #ff536f
-		background: #ffecef	
+		background: #ffecef
 
 	&.status-delivered
 		color: #2ed7b6
-		background: #d9f8f2		
+		background: #d9f8f2
 
 .search-food
 	background: darken($color-lighter, 5%)
@@ -1024,7 +980,7 @@ label
 			border: none
 			@include border-radius (50px !important)
 			padding-right: 40px !important
-			padding-left: 20px !important 
+			padding-left: 20px !important
 		.srch-btn
 			border: none
 			padding: 6px 15px
@@ -1042,11 +998,9 @@ label
 			&:focus
 				outline: none
 
-
 .ui-timepicker-container
 	z-index: 1001 !important
 	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif
-
 
 // New Order Now Page
 
@@ -1073,7 +1027,7 @@ label
 					position: absolute
 					right: 15px
 					font-weight: 600
-					
+
 			.menu-list
 				max-height: calc(100vh - 240px)
 				scrollbar-width: thin
@@ -1129,7 +1083,7 @@ label
 					border-radius: 0
 					border-top: 1px solid $color-lighter
 					h4
-						padding: 0.8rem 0.5rem !important 
+						padding: 0.8rem 0.5rem !important
 						border-bottom: none !important
 						font-size: 16px
 						white-space: nowrap
@@ -1143,7 +1097,7 @@ label
 						&.icon-rotate
 							&::before
 								transform: rotate(180deg)
-						
+
 					.menu-list
 						display: none
 						position: absolute
@@ -1167,7 +1121,7 @@ label
 							top: -60px
 						100%
 							top: 60px
-		
+
 	.middleContent
 		.box
 			box-shadow: 0 0 20px rgba(0,0,0,0.1)
@@ -1246,7 +1200,6 @@ label
 				.close
 					display: none
 
-					
 .sticky-cart-content
 	.cart-inner
 		.cart-price
@@ -1275,7 +1228,7 @@ label
 			.total-price
 				font-size: 25px
 				margin: 8px 0 20px
-					
+
 #signup_info_Modal
 	.icon
 		svg
