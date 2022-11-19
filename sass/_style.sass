@@ -1,0 +1,1069 @@
+// navbar css
+
+.text-primary
+    color: $color-primary !important
+.hero-header
+    background: $secondary-color
+    background-position: center center
+    background-repeat: no-repeat
+    background-size: cover
+
+.btn-main , .theme-btn
+    color: $white !important
+    background-color: $color-primary
+    border-color: $color-primary
+    transition: all 0.3s ease-out
+    font-family: $font-body
+    font-weight: 500
+    text-transform: uppercase
+    transition: .5s
+    border-radius: 50px
+    border: 1px solid transparent
+    padding: 0.375rem 0.75rem
+    font-size: 1rem
+    &:hover
+        background-color: $white
+        border-color: $color-primary
+        opacity: 0.9
+        color: #000 !important
+        border: 1px solid $color-primary
+        box-shadow: inset 150px 0 0 0 $white
+
+.slideInLeft
+    animation-name: slideInLeft
+
+.animated
+    animation-duration: 1s
+    animation-fill-mode: both
+
+@keyframes slideInLeft
+    0%
+        transform: translate3d(-100%,0,0)
+        visibility: visible
+    100%
+        transform: translateZ(0)
+@keyframes down_up
+    0%
+        transform: translateX(5px)
+
+    100%
+        transform: translateX(-5px)
+
+.scroll-to-top
+    position: fixed
+    z-index: 999
+    bottom: -60px
+    right: 8px
+    width: 40px
+    height: 40px
+    line-height: 40px
+    border-radius: 50%
+    text-align: center
+    color: $white
+    background: $color-primary
+    cursor: pointer
+    transition: .5s
+    box-shadow: 0 0 10px rgba(0,0,0,0.2)
+    &.top-arrow
+        bottom: 60px
+    &:hover
+        background: $color-orange
+// end scroll to top
+//index page carousel
+
+.free_delivery
+    width: 280px
+    .text-sub
+        background: $color-orange
+        padding: 4px 15px 7px
+    &:before
+        content: ""
+        position: absolute
+        height: 0
+        width: 0
+        border-style: solid
+        border-width: 18px 17px 17px 0
+        border-color: $color-orange transparent
+        left: 100%
+        top: 0
+
+.banner
+    img
+        height: 100%
+        width: 100%
+        position: relative
+        z-index: 1
+.list_data
+    list-style: none
+    li a
+        color: rgb(17, 17, 17)
+        font-weight: 500
+        font-size: 18px
+    li a i
+        color: $color-primary
+.index-testi .owl-theme .owl-nav
+    display: none
+.indexpage .carousel-inner
+    padding-top: 78px
+
+// about section
+.about
+    position: relative
+    .aboutImg
+        z-index: 2
+        border-radius: 30px
+    .place-holder-1
+        margin-top: 22px
+        margin-bottom: 20px
+    .place-holder-2
+        margin-bottom: 20px
+    img
+        max-width: 100%
+        height: auto
+        object-fit: contain
+.bg-b
+    background-image: linear-gradient(to right, #f4722b 0%, $color-primary 36%, $color-primary 65%, #f4722b 100%)
+.text-animation
+    font-weight: bold
+    color: transparent
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    -webkit-animation: hue 6s infinite linear
+.text-font-d
+    font-family: "Dancing Script", cursive
+    font-size: 30px
+@keyframes hue
+    0%
+        background-position: 0 0
+
+    100%
+        background-position: 2000px 0
+
+.rounded-radius
+    border-radius: 2px
+
+.border-primary
+    border-color: $color-primary !important
+.subtitle
+    color: $color-primary
+    font-size: 20px
+    font-weight: 600
+.shape
+    position: absolute
+    left: -6%
+    top: -10%
+    z-index: -1
+
+// end of about section
+
+// off section
+.off
+    background: url("../img/off_section_bg.jpg")
+    background-position: center center
+    background-repeat: no-repeat
+    background-size: auto
+    background-attachment: fixed
+    position: relative
+    .off-container
+        background: url("../img/shape21.png")
+        background-repeat: no-repeat
+        background-size: cover
+        padding: 40px 25px 57px 5px
+    .off-title
+        font-size: 44px
+        font-weight: 800
+        line-height: 1em
+        margin-bottom: 10px
+        position: relative
+        color: $text-color
+
+    .off-title span
+        display: block
+
+    .off-section-main
+        text-align: center
+        width: 213px
+        max-width: 213px
+        top: 0px
+        left: 0%
+        position: absolute
+        z-index: 1
+    .color-primary
+        color: #f43127
+
+    .color-sec
+        color: $yellow
+    .off-img img
+        margin: 50px 0 -50px 20px
+.special-menu
+    position: relative
+    padding-bottom: 120px
+    .menu-top-bg
+        top: -50px
+        position: absolute
+        left: 0
+        width: 100%
+        img
+            width: 100%
+    .headding-part
+        .headding-sub
+            font-size: 30px
+            color: $color-primary
+            font-family: 'Pacifico', cursive
+            @media #{$small-only}
+                font-size: 20px
+        .headding-title
+            font-size: 70px
+            line-height: 58px
+            letter-spacing: 2px
+            color: $black
+            @media #{$small-only}
+                font-size: 30px
+                line-height: 30px
+    .special-tab
+        .nav-tabs
+            border: unset
+
+        ul
+            background: $white
+            display: inline-block
+            border-radius: 50px
+            @media #{$small-only}
+                background: transparent
+        li
+            display: inline-block
+            margin: 0 5px
+        a
+            display: inline-block
+            color: $black
+            transition: all 400ms ease
+            font-size: 14px
+            padding: 14px 28px
+            letter-spacing: 1px
+            cursor: pointer
+            border: 1px solid $color-lighter
+            border-radius: 50px
+            @media #{$small-only}
+                padding: 5px 8px
+                font-size: 13px
+            &.active
+                background: $color-primary
+                border-radius: 50px
+                color: $white
+
+    .menu-bottom-bg
+        position: absolute
+        bottom: -90px
+        left: 0
+        width: 100%
+        img
+            width: 100%
+    .menu-title
+        font-size: 18px
+        color: $black
+        letter-spacing: 1px
+        padding-top: 25px
+        padding-bottom: 12px
+        display: block
+        font-weight: 600
+        &:hover
+            color: $color-primary
+    .menu-price
+        font-size: 18px
+        color: $color-primary
+        letter-spacing: 1px
+        font-weight: 600
+    .menu-des
+        font-size: 14px
+        color: #999999
+        letter-spacing: 1px
+        padding-bottom: 12px
+    .menu-img .menu-image
+        width: 200px
+        height: 200px
+        transition: all 400ms ease
+
+    .menu-img
+        width: 100%
+        height: 200px
+        overflow: hidden
+        margin: 0 auto
+        position: relative
+        transition: all 400ms ease
+        transform: scale(.75)
+        top: 0
+        &:hover
+            background: $yellow
+            transform: scale(1)
+            border-radius: 20px
+
+    .card
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px
+        border-radius: 30px
+        border: 1px solid #e5e5e5
+    .card-body
+        padding: 15px
+
+.btn-cart
+    background-color: $color-primary
+    border-color: $color-primary
+    border-radius: 20px
+
+.menu-items
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: space-between
+    z-index: 3
+    .food-title
+        background: white
+        padding-right: 10px
+        line-height: 35px
+        font-size: 22px
+        color: $color-primary
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow: hidden
+    .price
+        background: white
+        color: $color-primary
+        margin-left: auto
+        font-size: 22px
+        font-weight: bold
+        margin: 3px 0
+        padding-left: 10px
+.food-description
+    color: $black
+    overflow: hidden
+    display: -webkit-box
+    -webkit-line-clamp: 2
+    -webkit-box-orient: vertical
+    min-height: 45px
+    @media #{$small-only}
+        min-height: unset
+.title-description
+    overflow: hidden
+    display: -webkit-box
+    -webkit-line-clamp: 2
+    -webkit-box-orient: vertical
+    min-height: 45px
+    font-style: italic
+    color: $color-darker
+    @media #{$small-only}
+        font-size: 13px
+        min-height: unset
+.ban_image
+    position: absolute
+    &.img-1
+        left: 81%
+        top: 15%
+        height: auto
+    &.img-3
+        left: 55%
+        top: 60%
+        height: auto
+
+    &.img-4
+        right: 30%
+        top: 180px
+        height: 150px
+
+    img
+        @include image-style
+        height: 100%
+//counter section
+.count-section
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)),url('../img/counter_bg.jpg') center no-repeat fixed
+    background-size: cover
+    .count-number
+        font-size: 72px
+    .count_detail i
+        transition: all 0.3s ease-in-out
+        font-size: 48px
+        color: $yellow
+.sec-title-holder
+    .sub-title
+        font-size: 16px
+        font-weight: 700
+        color: $color-primary
+    .c-title
+        color: $text-color
+        font-size: 40px
+        line-height: 1.2
+        margin-bottom: 10px
+        position: relative
+        font-weight: 600
+.profile-desc p
+    font-size: 18px
+    color: $body-text-color
+    font-style: italic
+
+.padding-left
+    padding-left: 50px
+
+.information .c-name
+    font-size: 22px
+    font-weight: 600
+    color: $text-color
+// owl carousel dots
+
+.owl-theme .owl-dots .owl-dot.active span
+    background: $color-primary
+    border-radius: 6px
+    width: 22px
+    height: 6px
+
+.owl-theme .owl-dots .owl-dot span
+    color: $body-text-color
+    width: 12px
+    height: 12px
+    border-radius: 50%
+
+// free delivery section
+
+.free-delivery-section
+
+    .free-delivery-content
+        background: linear-gradient(#c80300e0, #c80300e0),url('../img/free.png') center no-repeat
+        border-radius: 0px 50px 0px 50px
+
+    .free_delivery_detail
+        margin: -30px 0 0 0
+        position: relative
+
+        img
+            height: auto
+            max-width: 100%
+            border: none
+            border-radius: 0
+            box-shadow: none
+            position: relative
+            z-index: 1
+        &::after
+            content: url(../img/smoke.png)
+            position: absolute
+            bottom: 10px
+            left: 0
+            z-index: 0
+            animation: down_up infinite 2000ms
+
+    .phone
+        display: inline-block
+        color: $white
+        background: $yellow
+        border-radius: 30px
+        margin-bottom: 0
+
+        padding: 8px 25px
+        box-shadow: 0 20px 30px 0 rgb(0 0 0 / 15%)
+        font-size: 24px
+        a
+            color: #ffffff
+            font-size: 26px
+
+/* mobile nav */
+
+.mobilenav
+    display: none !important
+    z-index: 100
+    margin-top: 0 !important
+    .row
+        display: flex
+        flex-wrap: nowrap
+
+    .mobile_btn
+        button:focus
+            outline: none
+            box-shadow: none
+
+        a.btn-link
+            color: $body-text-color
+            text-decoration: none !important
+
+        a.btn-link i
+            font-size: 1.3em
+
+    .card
+        border: none
+
+.sidenav
+    height: 100%
+    width: 0
+    position: fixed
+    z-index: 1
+    top: 0px
+    right: 0
+    background-color: #fff
+    overflow-x: hidden
+    transition: 0.5s
+    padding-top: 50px
+    .closebtn
+        position: absolute
+        top: 0
+        right: 25px
+        margin-left: 50px
+        font-size: 36px
+        color: $black
+
+    a.nav-link
+        padding: 10px 20px
+        font-size: 20px
+        color: $black
+        text-align: left
+        display: block
+        transition: 0.3s
+        font-weight: 500
+
+/* mobile nav */
+
+.prev-next-button
+    bottom: 0
+    width: 40px
+    height: 90px
+    font-weight: bold
+    text-transform: uppercase
+    background: $white
+    z-index: 10
+    align-items: center
+    top: 50%
+    transform: translateY(-50%)
+    transition: all 0.2s ease
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%)
+    .prev
+        @include next-prev
+    .next
+        @include next-prev
+    &.previous
+        left: 0
+        border-radius: 0% 50px 50px 0%
+        justify-content: center
+    &.nextbtn
+        right: 0
+        border-radius: 50px 0% 0% 50px
+        justify-content: center
+.carousel-button
+    position: absolute
+    border: none
+    &:hover
+        background: $color-primary
+    &:hover .prev, &:hover .next
+        color: $white
+
+.sticky-cart-content, .modal-scrollable, .single_sidebar_widget
+    ::-webkit-scrollbar
+        width: 5px
+
+    ::-webkit-scrollbar-track
+        background: #f0e9ff
+
+    ::-webkit-scrollbar-thumb
+        background: #ccc
+
+// about page style banner
+
+/* banner section style */
+
+.banner-section
+    background: url("../img/banner.png") no-repeat scroll center bottom / cover
+    display: flex
+    min-height: 400px
+    padding-top: 180px
+    position: relative
+    text-align: center
+    z-index: 1
+    .breadcrumb-data
+        .breadcrumb
+            background-color: transparent
+        h2
+            font-family: $font-body
+            font-weight: 700
+            color: $banner-text
+            font-size: 40px
+
+    .breadcrumb-item+.breadcrumb-item::before
+        color: $home-color
+        padding: 0 20px
+        font-weight: 700
+
+    .breadcrumb-item
+        font-size: 18px
+
+    .breadcrumb-item a
+        text-transform: uppercase
+        color: $home-color
+        &:hover
+            color: $color-primary
+
+    .breadcrumb-item+.breadcrumb-item
+        padding-left: 0
+
+/* banner section style */
+
+// Our features section about page
+
+.our-features
+    background: url("../img/sectionbg.jpg")
+    background-size: cover
+    position: relative
+
+// end of our features
+
+// testimonial of about page
+
+.item-icon
+    margin-bottom: -40px
+    i
+        font-size: 60px
+        color: #eaeaea
+.test-about
+    .owl-theme .owl-nav [class*=owl-]
+        color: $white
+        font-size: 29px
+        background: $color-primary
+        border-radius: 50%
+        transition: all 240ms ease-in-out
+        padding: 2px 2px 4px
+        display: none
+    .owl-carousel
+        .owl-dots
+            display: none
+        .owl-prev
+            left: -130px
+        .owl-next
+            right: -130px
+        .nav-button
+            height: 50px
+            width: 50px
+            cursor: pointer
+            position: absolute
+            top: 50% !important
+    &:hover  .owl-theme .owl-nav [class*=owl-]
+        display: block
+
+    .profile-desc p
+        font-size: 24px
+        font-style: italic
+        line-height: 1.6
+        margin-bottom: 30px !important
+
+// menu page and order page style
+
+// gallery page css
+
+.gallery
+    position: relative
+    z-index: 1
+    .img-box
+        position: relative
+        display: block
+        overflow: hidden
+        height: 250px
+        border-radius: 10px
+        box-shadow: 0 0 20px rgba(0,0,0,0.1)
+        img
+            transition: .5s
+            @include image-style
+            height: 100%
+        &:hover
+            .overlayer
+                visibility: visible
+                opacity: 1
+            img
+                transform: scale(1.1)
+
+        .overlayer
+            position: absolute
+            top: 0
+            left: 0
+            background: rgba(0,0,0,0.5)
+            height: 100%
+            width: 100%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            transition: .5s
+            visibility: hidden
+            opacity: 0
+
+            i
+                font-size: 2rem
+                color: white
+// gift card style
+.gift-card
+    position: relative
+    z-index: 1
+    .gift-img
+        img
+            height: 200px
+            object-fit: cover
+            width: 100%
+    .gift-price
+        background: lighten($color-secondary, 72%)
+        color: $color-primary
+        text-align: center
+        margin-top: 15px
+        border: 1px solid $color-lightest
+        font-weight: 600
+    .gift-description
+        overflow: hidden
+        display: -webkit-box
+        -webkit-line-clamp: 2
+        -webkit-box-orient: vertical
+        height: 45px
+        font-size: 0.9rem
+
+.contact
+    position: relative
+    z-index: 1
+    .box
+        .icon
+            display: grid
+            place-items: center
+            box-shadow: 2px 2px 15px rgba(0,0,0,0.1)
+            border-radius: 50%
+            height: 70px
+            width: 70px
+            margin: auto
+            margin-bottom: 10px
+            font-size: 1.3rem
+            color: $color-primary
+
+.contact-map
+    position: relative
+    z-index: 1
+    form
+        input
+            height: 50px
+            border-radius: 0 !important
+
+.reservation
+    position: relative
+    z-index: 1
+    .table_number
+        background: white
+    @media #{$large-and-down}
+        .form-box
+            max-width: 600px
+            margin: auto
+    h2
+        @media #{$large-and-down}
+            text-align: center
+
+    .text
+        h5
+            font-size: 1.8rem
+            font-weight: 600
+    h3
+        font-size: 1.75rem
+        color: $color-primary
+    p
+        font-weight: 500
+    .icon-box
+        padding-top: 5px
+        i
+            color: $color-primary
+
+    .form-box
+        max-width: 700px
+        margin: auto
+        input
+            height: 42px
+.contact-map, .reservation
+    .ui.form .field>label
+        font-weight: 500 !important
+.title-wrapper .title p
+    text-transform: capitalize
+    font-size: 2rem
+.order-now-page
+    position: relative
+    z-index: 1
+
+.header-height
+    min-height: 99px
+    @media #{$small-only}
+        min-height: 60px
+.user-dashboard
+    height: calc(100vh - 99px)
+    .wrapper
+        .left-sidebar.h-100
+            background: #1b2026
+.status
+    width: 100%
+    display: block
+    text-align: center
+    border-radius: 4px
+    padding: 0 12px
+    font-weight: 500
+    font-size: .9rem !important
+    max-width: 100px
+    margin: auto
+
+    &.status-pending
+        color: #ffb64d
+        background: #fff5e6
+
+    &.status-declined
+        color: #ff536f
+        background: #ffecef
+
+    &.status-delivered
+        color: #2ed7b6
+        background: #d9f8f2
+.pagination
+    .page-link
+        color: $color-primary
+        padding: .5rem .9rem
+        outline: none
+        box-shadow: none
+        &:hover
+            background: $color-primary
+            color: white
+            border: 1px solid transparent
+        &.current
+            background: $color-orange
+            color: white
+            border: 1px solid $color-orange
+.giftcard-inner
+    .filter
+        input
+            max-width: 300px
+        .select
+            max-width: 200px
+        button
+            padding: 5px 15px !important
+            &.reset-input-btn
+                background: darken($color-primary, 5%)
+                min-width: unset
+        @media #{$small-only}
+            flex-wrap: wrap
+            input
+                flex: 0 0 100%
+                max-width: unset
+                border-radius: 0 !important
+                margin: 0 !important
+            .select
+                height: 42px
+                border: 1px solid $color-lighter
+                background: white
+                max-width: unset !important
+                padding: 0 8px
+                margin-bottom: 10px
+                color: rgba(0,0,0,0.4)
+                outline: none
+            button
+                margin-top: 15px
+
+    .pending-text
+        color: black
+    .redeem-text
+        color: #dd3722
+    .expired-text
+        opacity: .5
+// catering page css
+
+.catering
+    .catering-row
+        &:first-child
+            padding-top: 0 !important
+    .title
+        background: $color-primary
+        box-shadow: 0 0 20px rgba(0,0,0,0.1)
+        border-radius: 10px
+        .title-inner
+            font-size: 1.8rem
+            cursor: pointer
+            color: $white
+            padding: 5px
+            @media #{$medium-and-down}
+                padding: 12px 0
+                font-size: 1.3rem
+
+    .catering-table
+        background: $white
+        margin-bottom: 15px !important
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px
+        @media #{$medium-and-down}
+            padding-bottom: 15px
+        thead
+            background: lighten($color-primary, 50%)
+            th
+                border: none !important
+                @media #{$medium-and-down}
+                    min-width: 245px
+                    &:nth-of-type(1)
+                        min-width: 0
+                    &:nth-of-type(2)
+                        min-width: 200px
+        tbody
+            tr
+                &:first-child
+                    td
+                        border-top: none
+            td
+                border-top: 1px solid lighten($color-primary, 40%)
+.privacy-policy
+    position: relative
+    z-index: 1
+    .heading
+        font-size: 2rem
+        span
+            color: $color-primary !important
+    li
+        h5
+            color: $color-primary
+            font-family: $font-body
+            font-weight: 600
+        p
+            color: #333
+// header css
+.header
+    position: absolute
+    width: 100%
+    z-index: 22
+    background: $secondary-color
+    border-bottom: 1px solid #EDDFC6
+
+.nav-section
+    .container
+        display: flex
+        align-items: center
+        justify-content: space-between
+    .logo
+        max-width: 150px
+        img
+            height: auto
+            width: 100%
+        @media #{$medium-and-down}
+            max-width: 120px
+
+    .nav-wrapper
+        z-index: 1022
+        position: fixed
+        background: #fff
+        height: 100%
+        top: 0
+        right: 0
+        width: 100%
+        max-width: 300px
+        display: block
+        right: -100%
+        transition: .5s
+        opacity: 0
+
+        @media only screen and (min-width: 1300px)
+            all: unset
+            position: static
+
+            .close
+                display: none
+
+        &.toggle
+            right: 0
+            opacity: 1
+
+    &.onscroll
+        background: $secondary-color
+        width: 100%
+        position: fixed
+        z-index: 999
+        animation: navscroll .5s forwards
+
+    @keyframes navscroll
+        0%
+            top: -60px
+        100%
+            top: 0
+
+    .navigation
+        margin-top: 30px
+        margin-left: 15px
+        li
+            margin-right: 15px
+            a
+                color: #1a1c23
+                padding: 10px 5px
+                display: inline-block
+                white-space: nowrap
+                border-bottom: 1px solid transparent
+                text-transform: uppercase
+                transition: .4s
+                font-weight: bold
+                &:hover, &.active
+                    color: $color-primary
+                &.theme-btn
+                    color: white
+
+        .has-sub-menu
+            position: relative
+            #drop-icon
+                color: white
+                float: right
+                line-height: 35px
+                padding: 0 8px
+                display: none
+                @media #{$extra-large-and-down}
+                    display: inline
+            @media #{$extra-large-and-down}
+                a
+                    i
+                        display: none
+            &:hover
+                .sub-menu
+                    top: 100%
+                    opacity: 1
+                    visibility: visible
+            .sub-menu
+                position: absolute
+                top: 130%
+                left: -20px
+                background: white
+                min-width: 200px
+                padding: 10px
+                transition: .3s
+                opacity: 0
+                visibility: hidden
+                box-shadow: 1px 1px 5px rgb(0 0 0 / 10%)
+
+                @media #{$extra-large-and-down}
+                    position: static
+                    opacity: 1
+                    visibility: visible
+                    background: none
+                    display: none
+                    transition: none
+
+                a
+                    color: $color-darker
+                    padding: 5px
+                    &:hover
+                        color: $color-orange
+                    @media #{$large-and-down}
+                        color: white
+
+        @media only screen and (min-width: 1300px)
+            all: unset
+            display: flex
+            list-style: none
+
+    .nav-icons
+        display: flex
+        align-items: center
+
+        .user-icon
+            border-bottom: 1px solid transparent
+            display: inline-block
+            @media #{$small-only}
+                border-bottom: none !important
+            &:hover
+                border-bottom: 1px solid white
+        #menu-bar
+            @media only screen and (min-width: 1300px)
+                display: none !important
+
+        .theme-btn
+            border: 1px solid $color-primary
+            color: white
+            &:hover
+                background: transparent !important
+                border: 1px solid $color-primary
+                color: $color-primary
