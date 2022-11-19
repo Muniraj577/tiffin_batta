@@ -84,5 +84,4 @@
 </div>
 <?php
 include 'login-modal.php';
-include 'sticky-cart-content.php';
 ?>
