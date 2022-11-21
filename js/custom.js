@@ -65,3 +65,62 @@ $('#menu-bar').click(function () {
 $('.nav-wrapper .close').click(function () {
     $('.nav-wrapper').removeClass('toggle');
 })
+$(document).ready(function () {
+    $('.select').niceSelect();
+
+    $('.select').on('change', function () {
+        $(this).siblings('.nice-select').find('.current').css({
+            'color': 'black',
+            'opacity': '1'
+        });
+    })
+
+});
+// Owl carousel testimonial 6th
+$('.product_s.owl-carousel').owlCarousel({
+    items: 1,
+    autoplay: true,
+    margin: 50,
+    loop: true,
+    dots: false,
+    nav: true,
+    center: true,
+    navText: [
+        "<span class='fa fa-chevron-left'></span>",
+        "<span class='fa fa-chevron-right'></span>",
+    ],
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        768: {
+            items: 1,
+        },
+        1000: {
+            items: 3,
+        }
+    }
+});
+
+const imgs = document.querySelectorAll('.img-select a');
+const imgBtns = [...imgs];
+let imgId = 1;
+
+imgBtns.forEach((imgItem) => {
+    imgItem.addEventListener('click', (event) => {
+        event.preventDefault();
+        imgId = imgItem.dataset.id;
+        slideImage();
+    });
+});
+
+function slideImage() {
+    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+}
+
+window.addEventListener('resize', slideImage);

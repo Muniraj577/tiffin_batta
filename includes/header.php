@@ -18,6 +18,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@400;700&family=Cookie&family=Dancing+Script&family=DynaPuff&family=Gabriela&family=Great+Vibes&family=Heebo&family=Jost&family=Kalam&family=Karla:wght@300;400&family=Kaushan+Script&family=Lato&family=Lobster&family=Lovers+Quarrel&family=Mitr&family=Nunito:wght@400;900&family=Open+Sans:ital@0;1&family=PT+Sans+Narrow&family=PT+Sans:wght@400;700&family=Pacifico&family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600;1,800&family=Poppins&family=Raleway:wght@400;500&family=Roboto&family=Roboto+Slab&family=Secular+One&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 </head>

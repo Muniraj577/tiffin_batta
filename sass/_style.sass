@@ -272,6 +272,12 @@
         border-radius: 30px
         border: none
         background: $secondary-color
+        transition: 0.4s
+    .product_s .card
+        box-shadow: none
+        &:hover
+            box-shadow: 0 0 15px rgb(0 0 0 / 9%)
+            transform: scale(1.05)
     .card-body
         padding: 25px 29px 30px
         text-align: center
@@ -295,7 +301,7 @@
         @media #{$small-only}
             font-size: 30px
             line-height: 30px
-.wrap-footer .rating
+.rating
     font-size: 14px
     color: rgba(27, 27, 27, 0.7)
     font-weight: 600
@@ -1014,3 +1020,235 @@
                 background: transparent !important
                 border: 1px solid $color-primary
                 color: $color-primary
+.shop-details-area
+    position: relative
+    .sticy-product
+        position: absolute
+        top: 80px
+        left: 0rem
+        width: 50%
+        height: calc(100% - 6.25rem)
+        display: block
+        background: $secondary-color
+        @media #{$small-only}
+            position: relative
+            width: auto
+            background: transparent
+            margin-bottom: 25px
+            top: 40px
+    .product-thumbnail-wrapper
+        position: sticky
+        top: 120px
+        width: 50%
+        flex-direction: column
+        flex-wrap: wrap
+        align-items: flex-start
+        margin: auto
+        padding-bottom: 60px
+    .shop-item-details
+        padding-left: 46px
+        margin-top: 30px
+        @media #{$small-only}
+            padding-left: 0
+        .breadcrumb
+            margin: 0px
+            text-align: center
+            display: inline-flex
+            .breadcrumb-item
+                font-size: 16px
+                font-weight: 500
+                color: $paragraph-color
+                padding-left: 5px
+                &.active
+                    color: $color-primary
+            .breadcrumb-item + .breadcrumb-item::before
+                float: left
+                padding-right: 5px
+                color: $paragraph-color
+                content: "-"
+        .price
+            font-weight: 700
+            margin-bottom: 0
+            color: $footer-text-color
+        .variation
+            margin-top: 30px
+            h6
+                font-size: 20px
+                margin-bottom: 20px
+            .size
+                padding: 0
+                margin: 0
+                li
+                    list-style: none
+                    display: inline-block
+                    &:first-child
+                        a
+                            margin-left: 0
+                    a
+                        height: 56px
+                        width: 56px
+                        display: inline-block
+                        border-radius: 50%
+                        background: $secondary-color
+                        text-align: center
+                        line-height: 56px
+                        font-weight: 500
+                        margin: 0 7px
+                        &:hover
+                            background: $color-primary
+                            color: $white
+            .single-select
+                background: $secondary-color
+                width: 100%
+        form
+            border-bottom: 1px solid rgba(34, 37, 39, 0.1)
+            margin-bottom: 30px
+            padding-bottom: 30px
+            .quantity
+                margin-left: 3px
+                margin-top: 47px
+                margin-right: 24px
+                display: inline-block
+                border: 0
+                border-radius: 6px
+            input
+                background: #FAF7F2
+                border: 0
+                height: 56px
+                padding: 0
+                width: 47px
+                text-align: center
+                cursor: pointer
+                margin-left: -3px
+                &.minus
+                    border-radius: 6px 0 0 6px
+                &.plus
+                    border-radius: 0 6px 6px 0
+                &.input-text
+                    border-right: 0
+                    border-left: 0
+        .cat
+            padding: 0
+            margin: 0
+            margin-bottom: 40px
+            li
+                list-style: none
+                display: inline-block
+                padding: 0 22px
+                &:first-child
+                    padding-left: 0
+        .shop-tabs .nav-pills
+            margin-bottom: 30px
+            .nav-item
+                &:first-child .nav-link
+                    padding-left: 0
+                &:last-child .nav-link
+                    padding-right: 0
+                .nav-link
+                    color: $footer-text-color
+                    font-size: 20px
+                    font-weight: 600
+                    padding: 0 24px
+                    &.active
+                        background: transparent
+                        color: $color-primary
+        .comment-area .media
+            display: flex
+            border-bottom: 1px solid #e5e5e5
+            padding-bottom: 25px
+            margin-bottom: 30px
+            .media-left
+                flex: none
+                margin-right: 20px
+            .media-body h6
+                margin-bottom: 6px
+        .shop-tabs .default-form-wrap
+            border: 0
+            padding: 0
+            margin: 0
+            .single-input-wrap
+                border-radius: 6px
+                height: 54px
+                line-height: 54px
+                margin-bottom: 30px
+                input
+                    background: $secondary-color
+                    border: none
+                    padding: 0 30px 2px 30px
+                    font-size: 16px
+                    width: 100%
+                    height: 100%
+                    color: $paragraph-color
+                    transition: all 0.4s ease-in
+                    position: relative
+            .single-textarea-wrap
+                textarea
+                    font-size: 16px
+                    width: 100%
+                    height: 100%
+                    color: $paragraph-color
+                    background: $secondary-color
+                    border: 0
+                    border-radius: 6px
+                    width: 100%
+                    padding: 20px 30px 30px 30px
+                    transition: all 0.4s ease-in
+                    position: relative
+    .entry-title
+        margin: 10px 0
+        color: $footer-text-color
+        font-weight: 600
+        font-size: 42px
+.single-select
+    font-weight: 500
+    color: #5f5f5f
+    height: 56px
+    line-height: 56px
+    border: 0
+    border-radius: 6px
+    padding: 0 90px 0 20px
+.product-imgs
+    .img-display
+        overflow: hidden
+        .img-showcase
+            display: flex
+            width: 100%
+            transition: all 0.5s ease
+            img
+                min-width: 100%
+    .img-select
+        display: flex
+        margin-top: 30px
+        .img-item
+            margin: 0.3rem
+            width: 150px
+            height: 100%
+            img
+                width: 100%
+                height: 100%
+                display: block
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3)
+            margin-right: 0
+
+.related-products
+    .owl-theme .owl-nav
+        margin-top: 10px
+        opacity: 1
+        position: absolute
+        right: 0
+        top: -100px
+        button
+            position: initial
+            background: $secondary-color
+            transform: none
+            height: 56px
+            width: 56px
+            line-height: 56px
+            border-radius: 6px
+            color: $color-primary
+            margin-right: 10px
+            &:hover
+                background: $color-primary
+                color: #fff
