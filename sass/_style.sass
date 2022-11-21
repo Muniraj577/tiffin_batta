@@ -1105,33 +1105,6 @@
             .single-select
                 background: $secondary-color
                 width: 100%
-        form
-            border-bottom: 1px solid rgba(34, 37, 39, 0.1)
-            margin-bottom: 30px
-            padding-bottom: 30px
-            .quantity
-                margin-left: 3px
-                margin-top: 47px
-                margin-right: 24px
-                display: inline-block
-                border: 0
-                border-radius: 6px
-            input
-                background: #FAF7F2
-                border: 0
-                height: 56px
-                padding: 0
-                width: 47px
-                text-align: center
-                cursor: pointer
-                margin-left: -3px
-                &.minus
-                    border-radius: 6px 0 0 6px
-                &.plus
-                    border-radius: 0 6px 6px 0
-                &.input-text
-                    border-right: 0
-                    border-left: 0
         .cat
             padding: 0
             margin: 0
@@ -1204,6 +1177,40 @@
         color: $footer-text-color
         font-weight: 600
         font-size: 42px
+.table-quantity
+    form
+        font-size: 16px
+        border-bottom: none
+form
+    border-bottom: 1px solid rgba(34, 37, 39, 0.1)
+    margin-bottom: 30px
+    padding-bottom: 30px
+    .quantity
+        margin-left: 3px
+        margin-top: 47px
+        margin-right: 24px
+        display: inline-block
+        border: 0
+        border-radius: 6px
+        input
+            background: #FAF7F2
+            border: 0
+            height: 54px
+            padding: 0
+            width: 47px
+            text-align: center
+            cursor: pointer
+            margin-left: -3px
+            &.minus
+                border-radius: 6px 0 0 6px
+            &.plus
+                border-radius: 0 6px 6px 0
+            &.input-text
+                border-right: 0
+                border-left: 0
+            &:focus
+                outline: none
+                box-shadow: none
 .single-select
     font-weight: 500
     color: #5f5f5f
@@ -1262,3 +1269,98 @@
     padding-right: 0.5rem
     color: #fff
     content: "-" !important
+.cart-area
+    .promotional-area
+        .py-3
+            padding-top: 0.85rem!important
+            padding-bottom: 0.85rem!important
+    .table
+        margin-bottom: 0px
+        min-width: 900px
+        border-radius: 12px
+        thead
+            background: #F6F1E7
+            border: 0
+        tr th
+            font-size: 24px
+            font-weight: 600
+            text-align: center
+            &.blank
+                border-left: 0
+            &:first-child
+                border-radius: 12px 0 0 0
+                border: 0
+
+    tbody tr
+        &:last-child th
+            border: 0
+        td
+            vertical-align: middle
+            background: #fff
+            text-align: center
+            border-left: 1px solid rgba(41, 41, 41, 0.1)
+            font-size: 24px
+            font-weight: 500
+            &:first-child
+                border-left: 0
+            &.item-name
+                border-left: 0
+                text-align: left
+                .details
+                    padding: 33px 0
+                    ul
+                        padding: 0
+                        margin: 0
+                        li
+                            list-style: none
+                            color: $paragraph-color
+                            font-size: 16px
+                            font-weight: 500
+        th
+            background: #fff
+            text-align: center
+    .order-cart-area
+        .order-cart
+            border-radius: 12px 12px 0 0
+            background: #fff
+            padding: 23px 30px 20px
+            h5
+                margin-bottom: 22px
+            ul
+                padding: 0
+                margin: 0
+                li
+                    list-style: none
+                    color: $paragraph-color
+                    font-size: 20px
+                    font-weight: 600
+                    display: flex
+                    margin-bottom: 4px
+                    &:last-child
+                        margin-bottom: 0
+                    &.total
+                        color: $color-red
+                span
+                    margin-left: auto
+        .theme-btn
+            border-radius: 0 0 12px 12px !important
+            border: none !important
+            background: $color-orange !important
+            &:hover
+                background: $color-primary
+                color: $white !important
+                box-shadow: inset 400px 0 0 0 $color-primary
+.single-input-wrap input
+    border: none
+    padding: 0 30px 2px 30px
+    font-size: 16px
+    width: 100%
+    height: 100%
+    color: #5f5f5f
+    background: #fff
+    transition: all 0.4s ease-in
+    position: relative
+.default-form-wrap .single-input-wrap
+    border-radius: 6px
+    height: 54px
+    line-height: 54px

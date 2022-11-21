@@ -73,7 +73,7 @@
                 </li> -->
 
                 <li class="header-cart-icon">
-                    <a class="cart-icon ms-3" href="#"><span
+                    <a class="cart-icon ms-3" href="cart.php"><span
                             class="svg-cart-icon"><?php include 'img/cart.svg' ?></span>
                         <span class="cart-num">1</span></a>
                 </li>

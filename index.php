@@ -398,27 +398,29 @@ $pageTitle = "Home";
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu3.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">Rum With Soda</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -429,27 +431,29 @@ $pageTitle = "Home";
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu4.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">Ceaser Salad</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -460,27 +464,29 @@ $pageTitle = "Home";
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu2.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">Sea Food Pasta</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -491,135 +497,87 @@ $pageTitle = "Home";
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu4.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">VALDOSTANA PIZZA</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu3.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">BISMARCK PIZZA</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img  text-center"><a href="#"><img src="img/menu3.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">PEPPERONI PIZZA</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu3.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">ORIENTAL PIZZA</a>
-                                <div class="wrap-footer">
-                                    <div class="rating">
-                                        4.9
-                                        <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
-                                        </span>
-                                        (200)
-                                    </div>
-                                </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu2.jpg" alt="menu"
-                                            class="menu-image"></a>
-                                </div>
-                                <a href="#" class="menu-title text-capitalize">BARBECUE PIZZA</a>
-                                <div class="wrap-footer">
-                                    <div class="rating">
-                                        4.9
-                                        <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
-                                        </span>
-                                        (200)
-                                    </div>
-                                </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
                             </div>
                         </div>
                     </div>
@@ -630,54 +588,29 @@ $pageTitle = "Home";
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu2.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">Chocolate Cookies</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu3.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">Rum With Soda</a>
-                                <div class="wrap-footer">
-                                    <div class="rating">
-                                        4.9
-                                        <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
-                                        </span>
-                                        (200)
-                                    </div>
-                                </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
                             </div>
                         </div>
                     </div>
@@ -688,81 +621,87 @@ $pageTitle = "Home";
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu4.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">Vegetarian</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu1.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">margheritapizza</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
                         <div class="card">
                             <div class="card-body">
-                                <div class="menu-img text-center"><a href="#"><img src="img/menu3.jpg" alt="menu"
-                                            class="menu-image"></a>
+                                <div class="menu-img text-center">
+                                    <a href="#"><img src="img/01.png" alt="menu" class="menu-image"></a>
+                                    <a class="fav-btn" href="#"><i class="fas fa-heart"></i></a>
                                 </div>
-                                <a href="#" class="menu-title text-capitalize">Four Cheese</a>
+                                <a href="#" class="menu-title text-capitalize">margherita pizza</a>
                                 <div class="wrap-footer">
                                     <div class="rating">
                                         4.9
                                         <span class="rating-inner">
-                                            <i class="ri-star-fill ps-0"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-fill"></i>
-                                            <i class="ri-star-half-line pe-0"></i>
+                                            <i class="fa fa-star checked ps-0"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star pe-0"></i>
                                         </span>
                                         (200)
                                     </div>
                                 </div>
-                                <span class="menu-price">$20.50</span>
-                                <span>
-                                    <a href="" class="btn btn-cart float-end"><i class="fas fa-shopping-basket"></i></a>
-                                </span>
+                                <div class="mt-4 bottom-area">
+                                    <h6 class="menu-price mb-0">$20.50</h6>
+                                    <a href="" class="btn theme-btn font-sm ms-1">Add to cart<i
+                                            class="fas fa-plus ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
