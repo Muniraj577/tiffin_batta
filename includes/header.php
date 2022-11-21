@@ -78,7 +78,6 @@
                 <li><span id="menu-bar" class="d-inline-block ms-4"><i class="fa fa-bars text-dark fa-2x"></i></span>
                 </li>
             </ul>
-
         </div>
     </section>
 </div>

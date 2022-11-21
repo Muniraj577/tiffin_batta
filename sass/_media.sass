@@ -7,7 +7,6 @@
     @include media-large
     @include padding-top
 
-
     .ban_image
         &.img-1
             top: 15%
@@ -69,178 +68,20 @@
         line-height: 40px
     .ban_image
         &.img-1
-            top: 50%
-            left: 75%
-            height: 120px
+            display: none
         &.img-3
             left: 30px
             top: 70%
             height: 120px
-    .food-navs ul li a
-        padding: 0.8rem 0.5rem
-        font-size: 14px
-    .free-delivery-section
-        padding: 30px 20px 100px
-        .free_delivery_detail
-            margin: -30px 0 30px 0
-            &::after
-                left: 0
-        .phone
-            margin: 20px 30px 50px
-            font-size: 16px !important
-        a
-            font-size: 16px !important
-
     .media-padding
         text-align: center
         padding: 30px 10px !important
-
-    .product-grid .product-image
-        margin: unset
-        flex: 0 0 80px
-        height: 100%
-
-    .product-grid .product-content
-        padding-left: 10px
-        flex: 0 0 calc(100% - 80px)
-        max-width: calc(100% - 80px)
-
-    .product-grid
-        display: flex
-        img
-            height: 80px
-
-        .product_desc
-            min-height: unset
-            font-size: 13px
-
-        .price
-            font-size: 18px
-
-    .product-grid .add-to-cart
-        padding: 2px 7px
-
-    #button
-        bottom: 60px
-        right: 30px
-
-    .main_order .single_sidebar_widget
-        width: 100%
-
-    .main_order
-        padding: 0
-        .form-control
-            height: 38.4px
-            border-radius: 0 !important
-
-    .my-menu-media h3:before
-        content: "\f107"
-        right: 10px
-        transition: 0.4s
-        font-family: Font Awesome\ 5 Free
-        font-weight: 600
-        position: absolute
-        font-size: 14px
-
-    .list-group-flush>.list-group-item
-        z-index: 1
-
-    .left-sticky-sidebar
-        display: flex
-        justify-content: space-between
-        .input-group .btn
-            top: 2px
-
-        .title-menu
-            padding: 0.6rem
-            border: 1px solid #ddd
-            h3
-                font-size: 1rem
-
-            i
-                @include displayNone()
-
-        .search_product .input-group
-            border: 1px solid #ddd
-
-        .search_product
-            height: 0
-
-    .list-group
-        @include displayNone()
-
-    .list-group-flush
-        background: $white
-        border: 1px solid #e8e8e8
-        box-shadow: 3px 5px 20px RGB(0 0 0 / 10%)
-        left: 0
-        position: absolute
-        top: 40px
-        width: 100%
-        z-index: 5
-        transition: 0.5s
-
-    .left-sticky-sidebar.scroll
-        animation: navAnimationMedia 0.5s forwards
-        background: $white
-        left: 0 !important
-        position: fixed !important
-        width: 100% !important
-        z-index: 5
-
-    .single_sidebar_widget
-        padding: 0 !important
-
-    .media-card.card
-        width: 100%
-        position: initial
-
-    .media-margin
-        margin-bottom: 0
-        width: 100%
-
-    .center_content
-        margin-top: 30px
-
-    .media_style .card
-        border-radius: 0
-        box-shadow: none
-    .order-now-page .middleContent
-        .menu-each
-            display: flex
-            .menu-content
-                flex: 0 0 calc(100% - 80px)
-                max-width: calc(100% - 80px)
-                padding-left: 10px
-                padding-top: 0!important
-            .theme-btn
-                height: 30px
-                width: 30px
-            .food-description
-                font-size: 13px
-                min-height: unset
-            .no-image
-                flex: 0 0 80px
-                height: 100%
-                img
-                    height: 80px !important
-            .menu-img
-                flex: 0 0 80px
-                height: 100%
-                img
-                    height: 80px !important
     .free_delivery span:before
         display: none
-    .off .off-section-main
-        top: 35%
-        left: 10%
-        z-index: 1
-
 @media (width: 540px)
     .ban_image
         &.img-1
-            top: 43%
-            height: 150px
+            display: none
         &.img-3
             left: 15%
     .text-media
