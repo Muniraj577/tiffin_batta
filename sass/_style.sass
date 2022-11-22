@@ -327,7 +327,7 @@
             transition: all 0.4s ease-in
             height: 100%
     .wrap-details
-        background-color: #fff
+        background-color: $white
         position: absolute
         bottom: 0
         left: 0
@@ -446,7 +446,7 @@
     z-index: 1
     top: 0px
     right: 0
-    background-color: #fff
+    background-color: $white
     overflow-x: hidden
     transition: 0.5s
     padding-top: 50px
@@ -528,7 +528,7 @@
             font-weight: 400
             margin-bottom: 4px
         h1
-            color: #fff
+            color: $white
             text-transform: uppercase
             letter-spacing: 1.5px
             font-weight: 400
@@ -758,7 +758,7 @@
 
     &.status-pending
         color: #ffb64d
-        background: #fff5e6
+        background: $white
 
     &.status-declined
         color: #ff536f
@@ -767,112 +767,7 @@
     &.status-delivered
         color: #2ed7b6
         background: #d9f8f2
-.pagination
-    .page-link
-        color: $color-primary
-        padding: .5rem .9rem
-        outline: none
-        box-shadow: none
-        &:hover
-            background: $color-primary
-            color: white
-            border: 1px solid transparent
-        &.current
-            background: $color-orange
-            color: white
-            border: 1px solid $color-orange
-.giftcard-inner
-    .filter
-        input
-            max-width: 300px
-        .select
-            max-width: 200px
-        button
-            padding: 5px 15px !important
-            &.reset-input-btn
-                background: darken($color-primary, 5%)
-                min-width: unset
-        @media #{$small-only}
-            flex-wrap: wrap
-            input
-                flex: 0 0 100%
-                max-width: unset
-                border-radius: 0 !important
-                margin: 0 !important
-            .select
-                height: 42px
-                border: 1px solid $color-lighter
-                background: white
-                max-width: unset !important
-                padding: 0 8px
-                margin-bottom: 10px
-                color: rgba(0,0,0,0.4)
-                outline: none
-            button
-                margin-top: 15px
 
-    .pending-text
-        color: black
-    .redeem-text
-        color: #dd3722
-    .expired-text
-        opacity: .5
-// catering page css
-
-.catering
-    .catering-row
-        &:first-child
-            padding-top: 0 !important
-    .title
-        background: $color-primary
-        box-shadow: 0 0 20px rgba(0,0,0,0.1)
-        border-radius: 10px
-        .title-inner
-            font-size: 1.8rem
-            cursor: pointer
-            color: $white
-            padding: 5px
-            @media #{$medium-and-down}
-                padding: 12px 0
-                font-size: 1.3rem
-
-    .catering-table
-        background: $white
-        margin-bottom: 15px !important
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px
-        @media #{$medium-and-down}
-            padding-bottom: 15px
-        thead
-            background: lighten($color-primary, 50%)
-            th
-                border: none !important
-                @media #{$medium-and-down}
-                    min-width: 245px
-                    &:nth-of-type(1)
-                        min-width: 0
-                    &:nth-of-type(2)
-                        min-width: 200px
-        tbody
-            tr
-                &:first-child
-                    td
-                        border-top: none
-            td
-                border-top: 1px solid lighten($color-primary, 40%)
-.privacy-policy
-    position: relative
-    z-index: 1
-    .heading
-        font-size: 2rem
-        span
-            color: $color-primary !important
-    li
-        h5
-            color: $color-primary
-            font-family: $font-body
-            font-weight: 600
-        p
-            color: #333
 // header css
 .header
     position: absolute
@@ -897,7 +792,7 @@
     .nav-wrapper
         z-index: 1022
         position: fixed
-        background: #fff
+        background: $white
         height: 100%
         top: 0
         right: 0
@@ -1263,11 +1158,11 @@ form
             margin-right: 10px
             &:hover
                 background: $color-primary
-                color: #fff
+                color: $white
 .breadcrumb-item+.breadcrumb-item::before
     float: left
     padding-right: 0.5rem
-    color: #fff
+    color: $white
     content: "-" !important
 .cart-area
     .promotional-area
@@ -1296,7 +1191,7 @@ form
             border: 0
         td
             vertical-align: middle
-            background: #fff
+            background: $white
             text-align: center
             border-left: 1px solid rgba(41, 41, 41, 0.1)
             font-size: 24px
@@ -1317,12 +1212,12 @@ form
                             font-size: 16px
                             font-weight: 500
         th
-            background: #fff
+            background: $white
             text-align: center
     .order-cart-area
         .order-cart
             border-radius: 12px 12px 0 0
-            background: #fff
+            background: $white
             padding: 23px 30px 20px
             h5
                 margin-bottom: 22px
@@ -1357,10 +1252,186 @@ form
     width: 100%
     height: 100%
     color: #5f5f5f
-    background: #fff
+    background: $white
     transition: all 0.4s ease-in
     position: relative
 .default-form-wrap .single-input-wrap
     border-radius: 6px
     height: 54px
     line-height: 54px
+
+.sidebar-area .widget
+    margin-bottom: 35px
+    padding: 23px 30px 30px
+    border-radius: 6px
+    background: #F6F1E7
+    &.widget_search
+        padding: 0
+        border: 0
+        .search-form
+            position: relative
+            background: $white
+            border-radius: 6px
+            border-bottom: none
+            padding-top: 0
+            padding-bottom: 0
+            input
+                letter-spacing: 0.3px
+                color: $paragraph-color
+                width: 100%
+                font-size: 16px
+                font-weight: 400
+                border: 0
+                background: transparent
+                padding: 0 60px 0 24px
+                height: 56px
+                line-height: 56px
+                &:focus
+                    outline: none
+                    box-shadow: none
+            button
+                position: absolute
+                right: 0
+                border: 0
+                background: transparent
+                cursor: pointer
+                font-size: 20px
+                padding: 0 23px
+                height: 56px
+                line-height: 56px
+                top: 0
+                right: 0
+                color: $color-primary
+    .widget-title
+        margin-bottom: 19px
+        font-size: 24px
+        font-weight: 600
+        color: $footer-text-color
+        margin-bottom: 27px
+    &.widget_categories ul
+        margin: 0
+        padding: 0
+        li
+            list-style: none
+            margin-bottom: 20px
+            font-weight: 500
+            img
+                margin-right: 15px
+            span
+                margin-left: auto
+            a
+                color: $footer-text-color
+                display: flex
+                align-items: center
+    .widget_filter
+        .ui-widget.ui-widget-content
+            border: 0
+            border-radius: 50px
+            height: 10px
+            margin-bottom: 25px
+        .ui-widget-header
+            background: $yellow
+    &.widget-recent-post
+        ul
+            list-style: none
+            padding: 0
+            margin: 0
+            li .media
+                margin-bottom: 30px
+                display: flex
+                align-items: center
+                .media-left
+                    margin-right: 12px
+                    -webkit-box-flex: 0
+                    flex: none
+                .media-body .price
+                    margin-top: 7px
+                img
+                    border-radius: 3px
+                    max-width: 100px
+                    height: auto
+.pagination
+    border: 0
+    display: inline-block
+    margin: 0px
+    .page-item
+        margin-right: 10px
+        display: inline-block
+        .page-link
+            border: 0
+            height: 56px
+            width: 56px
+            padding: 0px
+            background: $white
+            border-radius: 6px
+            color: $color-primary
+            text-align: center
+            line-height: 56px
+            box-shadow: none
+            font-size: 18px
+            transition: all 0.4s ease-in
+            outline: 0
+            &:hover
+                background: $color-primary
+                color: #fff
+        &.active .page-link
+            background: $color-primary
+            color: $white
+.single-item-wrap
+    position: relative
+    background-color: #fff
+    border-radius: 12px
+    padding: 22px 29px 24px
+    margin-bottom: 60px
+    transition: all 0.4s ease-in
+    .thumb
+        text-align: center
+        img
+            transition: all 0.4s ease-in
+            max-width: 100%
+            height: auto
+        a
+            position: absolute
+            top: 18px
+            right: 27px
+            font-size: 24px
+    .wrap-details
+        margin-top: 22px
+        h5
+            font-size: 20px
+        .wrap-footer
+            display: flex
+            align-items: center
+        .price
+            margin-left: auto
+            font-size: 20px
+            font-weight: 700
+            margin-bottom: 0
+    .btn-area
+        background-color: #fff
+        border-radius: 0 0 12px 12px
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 100%
+        text-align: center
+        transition: all 0.4s ease-in
+        transform: translate(0px, 80%)
+        opacity: 0
+        visibility: hidden
+        z-index: 1
+        box-shadow: 0 30px 30px rgb(0 0 0 / 12%)
+        .btn
+            border-radius: 30px 30px 0 0
+            padding: 0 90px
+            height: 64px
+            line-height: 64px
+            background:  $color-orange
+            color: $white
+            border: none
+            font-weight: bold
+    &:hover .btn-area
+        opacity: 1
+        visibility: visible
+        -webkit-transform: translate(0, 100%)
+        transform: translate(0, 100%)
