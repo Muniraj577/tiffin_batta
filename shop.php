@@ -307,22 +307,28 @@ $pageTitle = "Shop";
                     <div class="widget widget_filter">
                         <h4 class="widget-title">Filter by Price</h4>
                         <div class="side-bar-range">
-                            <div id="slider-range"
-                                class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                                <div class="ui-slider-range ui-corner-all ui-widget-header"
-                                    style="left: 12.5%; width: 87.5%;"></div><span tabindex="0"
-                                    class="ui-slider-handle ui-corner-all ui-state-default"
-                                    style="left: 12.5%;"></span><span tabindex="0"
-                                    class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span>
+                            <div class="slider">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="range-input">
+                                <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                                <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
                             </div>
                             <div class="row g-0">
-                                <div class="col-lg-6 align-self-center">
-                                    <a class="btn btn-base" href="#">Filter</a>
+                                <div class="col-lg-5 align-self-center">
+                                    <a class="btn theme-btn rounded-0" href="#">Filter</a>
                                 </div>
-                                <div class="col-lg-6 align-self-center">
-                                    <p>Price:
-                                        <input type="text" id="amount" readonly="">
-                                    </p>
+                                <div class="col-lg-7 float-end">
+                                    <div class="price-input">
+                                        <div class="field">
+                                            <span>Price: </span>
+                                            <input type="number" class="input-min" value="2500" readonly>
+                                        </div>
+                                        <div class="field">
+                                            <div class="separator">-</div>
+                                            <input type="number" class="input-max" value="7500" readonly>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
