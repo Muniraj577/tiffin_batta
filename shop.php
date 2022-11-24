@@ -32,12 +32,6 @@ $pageTitle = "Shop";
             <div class="col-lg-8">
                 <div class="row justify-content-center">
                     <div class="col-sm-12 align-self-center pb-4">
-                        <select class="single-select float-sm-end" style="display: none;">
-                            <option>Default sorting</option>
-                            <option value="asc">Pizza</option>
-                            <option value="desc">Burger</option>
-                            <option value="pop">Ramen</option>
-                        </select>
                         <div class="nice-select single-select float-sm-end" tabindex="0"><span class="current">Default
                                 sorting</span>
                             <ul class="list">
@@ -312,10 +306,10 @@ $pageTitle = "Shop";
                                 <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
                             </div>
                             <div class="row g-0">
-                                <div class="col-lg-5 align-self-center">
+                                <div class="col-lg-5 col-md-6 align-self-center">
                                     <a class="btn theme-btn rounded-0" href="#">Filter</a>
                                 </div>
-                                <div class="col-lg-7 float-end">
+                                <div class="col-lg-7 col-md-6 float-end">
                                     <div class="price-input">
                                         <div class="field">
                                             <span>Price: </span>

@@ -1376,6 +1376,11 @@ ul.clean {
   letter-spacing: 1px;
   font-weight: 600;
 }
+@media only screen and (max-width : 991px) {
+  .special-menu .menu-price {
+    margin-bottom: 10px !important;
+  }
+}
 .special-menu .menu-des {
   font-size: 14px;
   color: #999999;
@@ -1440,6 +1445,11 @@ ul.clean {
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+@media only screen and (max-width : 991px) {
+  .special-menu .bottom-area {
+    display: block;
+  }
 }
 
 .headding-part .headding-sub {
@@ -2246,6 +2256,11 @@ ul.clean {
     padding-left: 0;
   }
 }
+@media only screen and (max-width : 991px) {
+  .shop-details-area .shop-item-details {
+    padding-left: 10px;
+  }
+}
 .shop-details-area .shop-item-details .breadcrumb {
   margin: 0px;
   text-align: center;
@@ -2324,6 +2339,12 @@ ul.clean {
     padding: 0;
   }
 }
+@media only screen and (max-width : 991px) {
+  .shop-details-area .shop-item-details .cat li {
+    display: block;
+    padding: 0;
+  }
+}
 .shop-details-area .shop-item-details .cat li:first-child {
   padding-left: 0;
 }
@@ -2343,6 +2364,11 @@ ul.clean {
   padding: 0 24px;
 }
 @media only screen and (max-width : 576px) {
+  .shop-details-area .shop-item-details .shop-tabs .nav-pills .nav-item .nav-link {
+    padding: 0 15px 0 0;
+  }
+}
+@media only screen and (max-width : 991px) {
   .shop-details-area .shop-item-details .shop-tabs .nav-pills .nav-item .nav-link {
     padding: 0 15px 0 0;
   }
@@ -2550,6 +2576,15 @@ form .quantity input:focus {
 @media only screen and (max-width : 576px) {
   .cart-area .table tr th {
     font-size: 16px;
+    vertical-align: middle;
+  }
+  .cart-area .table tr th img {
+    width: 100%;
+    height: 100px;
+  }
+}
+@media only screen and (max-width : 991px) {
+  .cart-area .table tr th {
     vertical-align: middle;
   }
   .cart-area .table tr th img {
@@ -3122,6 +3157,11 @@ form .quantity input:focus {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
+@media only screen and (max-width : 576px) {
+  .side-bar-range .theme-btn {
+    margin-top: 20px;
+  }
+}
 /*********************************************************************************************************************************/
 /*********************************************************** S.T.Y.L.E ***********************************************************/
 /*********************************************************************************************************************************/
@@ -3420,8 +3460,8 @@ label {
     text-align: left !important;
   }
   .heading1 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .indexpage .carousel-inner {
     padding-top: 50px;
@@ -3480,8 +3520,8 @@ label {
     text-align: left !important;
   }
   .heading1 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .indexpage .carousel-inner {
     padding-top: 50px;

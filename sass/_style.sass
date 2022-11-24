@@ -243,6 +243,8 @@
         color: $footer-text-color
         letter-spacing: 1px
         font-weight: 600
+        @media #{$large-and-down}
+            margin-bottom: 10px !important
     .menu-des
         font-size: 14px
         color: #999999
@@ -295,6 +297,8 @@
         align-items: center
         text-align: center
         justify-content: center
+        @media #{$large-and-down}
+            display: block
 .headding-part
     .headding-sub
         font-size: 30px
@@ -963,6 +967,8 @@
         margin-top: 30px
         @media #{$small-only}
             padding-left: 0
+        @media #{$large-and-down}
+            padding-left: 10px
         .breadcrumb
             margin: 0px
             text-align: center
@@ -1024,6 +1030,9 @@
                 @media #{$small-only}
                     display: block
                     padding: 0
+                @media #{$large-and-down}
+                    display: block
+                    padding: 0
                 &:first-child
                     padding-left: 0
         .shop-tabs .nav-pills
@@ -1039,6 +1048,8 @@
                     font-weight: 600
                     padding: 0 24px
                     @media #{$small-only}
+                        padding: 0 15px 0 0
+                    @media #{$large-and-down}
                         padding: 0 15px 0 0
                     &.active
                         background: transparent
@@ -1207,6 +1218,11 @@ form
             text-align: center
             @media #{$small-only}
                 font-size: 16px
+                vertical-align: middle
+                img
+                    width: 100%
+                    height: 100px
+            @media #{$large-and-down}
                 vertical-align: middle
                 img
                     width: 100%
@@ -1671,3 +1687,7 @@ form
         pointer-events: auto
         -moz-appearance: none
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.05)
+@media #{$small-only}
+    .side-bar-range
+        .theme-btn
+            margin-top: 20px
