@@ -45,282 +45,17 @@
     overflow-x: hidden
     overflow-y: auto
 
-.modal-backdrop.show
-    z-index: 100
-.datepicker .datepicker-days
-    .dow
-        border: 1px solid $border-color
-        color: $color-primary
-        padding: 6px 8px
-    .day
-        border: 1px solid $border-color
-        border-radius: 0
-        padding: 8px 10px
-        &.active
-            background: $color-primary
-        &:hover
-            background: $color-primary
-            color: $white
-        &.today
-            background: $color-secondary
-            color: $white
-#choose_loc_Modal .modal-body input
-    background: #E8E8E8
-    height: 45px
-    border: none
-.font-size-small
-    font-size: 14px !important
-.input-icon
-    position: relative
-    i
-        position: absolute
-        left: 10px
-        top: 50%
-        transform: translateY(-50%)
-
-.response-text.success
-    background: rgba(40, 167, 69, 0.1490196078)
-    color: $color-green
-    p
-        color: $color-green
-        margin-bottom: 0
-.response-text
-    font-size: 14px
-
-.response-text.error
-    background: rgba(220, 53, 69, 0.0784313725)
-    color: $error
-    p
-        color: $error !important
-        margin-bottom: 0
-#choose_srv_Modal #show_pickup, #choose_srv_Modal #show_delivery, #choose_srv_Modal #show_now, #choose_srv_Modal #show_later, #choose_srv_Modal #show_later .select_time_btn, #choose_srv_Modal #show_now_delivery, #choose_srv_Modal #show_later_delivery
-    display: none
-#choose_srv_Modal .append-subbox .date_time_wrap .input-group input
-    border-radius: 0 !important
-// cart css
-.cart-counter
-    .qty-btn
-        border: 1px solid $color-primary
-        border-radius: 50%
-        background: none
-        color: $color-primary
-        outline: none
-        transition: 0.3s
-        height: 25px
-        width: 25px
-    i
-        vertical-align: middle
-    .qty-count
-        line-height: 30px
-        width: 30px
-
-.table>:not(:first-child)
-    border-top: 1px dashed $border-color
-    border-bottom: 1px solid $border-color
-
-#cart_view_Modal .table td p, .sticky-cart-content .table td p
-    line-height: 20px
-    margin-bottom: 0
-// sticky cart
-.sticky-cart-content
-    max-width: 420px
-    position: fixed
-    right: -430px
-    top: 52%
-    transform: translateY(-50%)
-    transition: .4s
-    width: 100%
-    z-index: 999
-
-    .action
-        .remove-btn
-            border: 1px solid lightgrey
-            background: none
-            border-radius: 50%
-            height: 30px
-            margin-right: 5px
-            padding-left: 6px
-            width: 30px
-    .quantity-wrap
-        border: 1px solid lightgrey
-        border-radius: 50px
-        padding: 0 3px
-        .qty-btn
-            border: none
-            &:hover
-                background: $color-primary
-                color: $white
-            .qty-count
-                width: 25px
-    .total-wrap
-        .text
-            font-size: 18px !important
-        .total-price
-            font-size: 25px !important
-            padding: 8px 0 20px
-    .table
-        td
-            vertical-align: middle !important
-            border-top: 1px solid $color-lighter
-        tr
-            &.blocker
-                position: relative
-                opacity: .5
-                pointer-events: none
-                &::after
-                    opacity: 1 !important
-                    content: "\f110"
-                    position: absolute
-                    top: 25%
-                    left: 45%
-                    font-family: 'Font Awesome 5 Free'
-                    z-index: 3
-                    font-weight: 600
-                    animation: spinner-border .75s linear infinite
-                    color: $body-text-color
-                    font-size: 1.5rem
-    .cart-inner
-        box-shadow: 0 0 20px rgb(0 0 0 / 50%)
-        .cart-price
-            font-size: 16px !important
-            font-weight: bold
-        .cs-scrollbar
-            max-height: 400px
-        .cs-scrollbar *
-            font-size: .8rem
-        .cart-items
-            overflow-x: auto
-    &.toggle
-        right: 0
-.border-bottom-dashed td
-    border-top: 1px dashed $border-color !important
-.change-order-type
-    border: none
-.delivery-address a:hover
-    color: $white
 .table td, .table th
     padding: 0.75rem
 
 .table>:not(caption)>*>*
     border-bottom-width: 0
-
-// checkout modal
-.border-bottom-dashed
-    border-bottom: 1px dashed $border-color
-.order-details p
-    margin-bottom: 0
-#checkout_Modal .modal-dialog
-    max-width: 600px
-.tip-wrapper .tips button.active, .tip-wrapper .tips button:hover, .tip-wrapper .tips button:focus
-    background: $color-primary
-    outline: none
-.tip-wrapper .tips button
-    border: none
-    flex: 0 0 20%
-    text-align: center
-    padding: 8px
-    border-right: 1px solid rgba(255, 255, 255, 0.1294117647)
-    color: white
-    background: #ea4651
-.tip-wrapper
-    .tips
-        display: flex
-    .input-group i
-        width: 50px
-        line-height: 40px
-        text-align: center
-        height: calc(100% - 3px)
-        background: $color-lightest
-        border-right: 1px solid $color-lighter
-        position: absolute
-        left: 2px
-        top: 2px
-        z-index: 5
-    .input-group input
-        padding-left: 60px
-
-#checkout_Modal
-    input
-        border: 1px solid $color-lighter
-        // height: 45px
-    .loyalty-details
-        padding: 10px
-        display: flex
-        align-items: center
-        flex-wrap: wrap
-
-    .loyalty-details .img-box
-        border: 3px solid $color-lighter
-        border-radius: 50%
-        padding: 15px
-        height: 66px
-        width: 66px
-        img
-            width: 30px
-            height: 30px
-            object-fit: contain
-    .creditcard-exp-wrap .creditcard-exp
-        flex: 0 0 48%
-    .creditcard-exp-wrap
-        display: flex
-        justify-content: space-between
-
-.text-error
-    color: $color-primary !important
-.promo-code button
-    border: none
-    padding: 0 15px
-    outline: none
-    background: none
-    border: 1px solid $color-lighter
-    background: #F9F9F9
-    transition: 0.3s
-.payment-card input:checked ~ .custom-control-label
-    border: 1px solid $color-primary !important
-    color: $color-primary
-    transform: scale(1.02)
-
-.payment-card
-
-    .custom-control-label
-        cursor: pointer
-        border: 1px solid #E8E8E8
-        transition: 0.3s
-        position: relative
-        &:hover
-            transform: scale(1.02)
-            color: $color-primary !important
-            border: 1px solid #ea4651 !important
-
-            &::before
-                color: $color-primary !important
-                background-color: $color-primary !important
-                border-color: $color-primary !important
-        &::before
-            top: 50%
-            transform: translateY(-50%)
-            left: 25px
-            border-radius: 50%
-            position: absolute
-            transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
-            display: block
-            width: 1rem
-            height: 1rem
-            pointer-events: none
-            content: ""
-            background-color: $white
-            border: 1px solid $border-color
-    .custom-radio
-        padding-left: 0
-
 .modal-dialog-centered
     min-height: calc(100% - 3.5rem)
 .modal-scrollable .modal-body
     overflow: hidden
     overflow-y: auto
     max-height: 73vh
-#card-input-box
-    display: none
 .nice-select .list
     width: 100%
 .custom-control-input
@@ -335,101 +70,10 @@
 
 .border-none
     border: none !important
-
-#order-detail-modal
-    .modal-dialog
-        max-width: 600px
-    tr
-        &:first-child
-            th, td
-                border-top: none
-    th[scope="row"]
-        width: 25%
-
 .rotate-180
     transform: rotate(180deg)
 .form-group
     margin-bottom: 1rem
-
-.custom-switch
-    .custom-control-label
-        cursor: pointer
-        position: relative
-        margin-bottom: 0
-        vertical-align: top
-        &::after
-            top: 5.5px !important
-            left: -49px !important
-            width: 18px !important
-            height: 18px !important
-            background-color: $color-light
-            border-radius: 50px !important
-            position: absolute
-            content: ""
-
-        &::before
-            left: -3.25rem !important
-            width: 2.8rem !important
-            border-radius: 50px !important
-            height: calc(1.4rem + 1px) !important
-            border: 1px solid $color-light
-            pointer-events: none
-            content: ""
-            background-color: #fff
-            position: absolute
-    .custom-control-input
-        &:checked
-            &~.custom-control-label
-                &::after
-                    transform: translateX(20px)
-
-.custom-switch .custom-control-input:focus:not(:checked)~.custom-control-label::before
-    border-color: none
-    box-shadow: none
-.custom-switch .custom-control-input:focus~.custom-control-label::before
-    box-shadow: none
-.custom-switch input:checked~.custom-control-label::before
-    color: $secondaryColor !important
-    border-color: $secondaryColor !important
-    background-color: white !important
-
-.custom-switch .custom-control-input:checked~.custom-control-label::after
-    background-color: $secondaryColor !important
-
-.custom-control-label:before, .custom-control-label:after
-    top: 3px
-    box-shadow: none
-
-.custom-control-label
-    &::before
-        position: absolute
-        display: block
-        width: 1rem
-        height: 1rem
-        pointer-events: none
-        content: ""
-        background-color: #fff
-        border: #adb5bd solid 1px
-    &::after
-        position: absolute
-        display: block
-        width: 1rem
-        height: 1rem
-        content: ""
-        background: no-repeat 50%/50% 50%
-
-.custom-checkbox .custom-control-input:checked~.custom-control-label::after
-    background-image: url('../img/download.svg')
-.custom-control
-    position: relative
-    z-index: 1
-    display: block
-    min-height: 1.5rem
-    padding-left: 1.5rem
-input:checked ~ .custom-control-label::before
-    color: $color-primary !important
-    border-color: $color-primary !important
-    background-color: $color-primary !important
 
 .cart-icon
     width: 50px
@@ -448,7 +92,6 @@ input:checked ~ .custom-control-label::before
         width: 40px
         height: 40px
         line-height: 40px
-
         .cart-num
             min-height: 22px !important
             min-width: 22px !important
@@ -537,3 +180,95 @@ input:checked ~ .custom-control-label::before
                 .sidemenu
                     h4
                         font-size: 19px !important
+.btn-like-a
+    border: none
+    outline: none
+    box-shadow: none
+    &:focus
+        box-shadow: none
+        outline: none
+.modal
+    .modal-header
+        button
+            position: absolute
+            right: 0
+            top: 0
+            z-index: 5
+            background: $color-primary
+            border-radius: 50%
+            height: 20px
+            width: 20px
+            line-height: 20px
+            opacity: 1
+            color: white
+            display: flex
+            align-items: center
+            justify-content: center
+            transition: .3s
+            outline: none
+            padding: 1rem 1rem
+            margin: -1rem -1rem -1rem auto
+            border: none
+            &:hover
+                opacity: .8
+            @media #{$small-only}
+                right: 18px
+                top: 18px
+                color: $color-primary
+                background: none
+                font-size: 2rem
+            span
+                font-size: 20px
+label
+    font-weight: 400 !important
+#user_login_Modal, #forgot_psw_Modal
+    .modal-header
+        padding-top: 0
+        padding-bottom: 0
+        border: none
+        .nav-tabs
+            justify-content: center
+            border: none
+            .nav-link
+                border: 1px solid transparent
+                border-radius: 0
+                flex: 0 0 50%
+                background: $color-secondary
+                color: white
+                text-align: center
+                &.active
+                    background: $color-primary
+    .modal-body
+        label
+            text-transform: capitalize
+        .loginbtn
+            background: $color-primary
+            color: white
+            border: none
+            padding: 8px
+            transition: .3s
+
+            &:hover
+                background: $color-secondary
+        .guest-loginbtn
+            background: $color-primary
+            color: white
+            border: none
+            padding: 8px
+            transition: .3s
+
+            &:hover
+                background: $color-secondary
+
+        .forgot-psw
+            &:hover
+                border-bottom: 1px solid $color-primary
+        .login_back
+            &:hover
+                color: $color-primary
+
+.svg-cart-icon
+    svg
+        height: 25px
+        width: 25px
+        fill: white

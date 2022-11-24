@@ -162,7 +162,7 @@ $pageTitle = "Home";
         <div class="tab-content">
             <div role="tabpanel" class="pt-70 tab-pane fade in active show" id="tab_1">
                 <div class="row gy-4">
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -191,7 +191,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -220,7 +220,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4  pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6  pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -249,7 +249,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -278,7 +278,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -307,7 +307,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -336,7 +336,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -365,7 +365,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -399,7 +399,7 @@ $pageTitle = "Home";
             </div>
             <div role="tabpanel" class="pt-70 tab-pane fade" id="tab_2">
                 <div class="row gy-4">
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -432,7 +432,7 @@ $pageTitle = "Home";
             </div>
             <div role="tabpanel" class="pt-70 tab-pane fade" id="tab_3">
                 <div class="row gy-4">
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -465,7 +465,7 @@ $pageTitle = "Home";
             </div>
             <div role="tabpanel" class="pt-70 tab-pane fade" id="tab_4">
                 <div class="row gy-4">
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -498,7 +498,7 @@ $pageTitle = "Home";
             </div>
             <div role="tabpanel" class="pt-70 tab-pane fade" id="tab_5">
                 <div class="row gy-4">
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -527,7 +527,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -556,7 +556,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -589,7 +589,7 @@ $pageTitle = "Home";
             </div>
             <div role="tabpanel" class="pt-70 tab-pane fade" id="tab_6">
                 <div class="row gy-4">
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -622,7 +622,7 @@ $pageTitle = "Home";
             </div>
             <div role="tabpanel" class="tab-pane fade" id="tab_7">
                 <div class="row gy-4">
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -651,7 +651,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -680,7 +680,7 @@ $pageTitle = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 pt-20">
+                    <div class="col-xl-3 col-lg-3 col-md-6 pt-20">
                         <div class="card">
                             <div class="card-body">
                                 <div class="menu-img text-center">
@@ -745,7 +745,7 @@ $pageTitle = "Home";
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-12">
+            <div class="col-lg-4 col-md-6">
                 <div class="single-blog-wrap">
                     <div class="thumb">
                         <img src="img/quality.png" alt="img">
@@ -782,7 +782,7 @@ $pageTitle = "Home";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12">
+            <div class="col-lg-4 col-md-6">
                 <div class="single-blog-wrap">
                     <div class="thumb">
                         <img src="img/variety.png" alt="img">
@@ -815,7 +815,7 @@ $pageTitle = "Home";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12">
+            <div class="col-lg-4 col-md-6">
                 <div class="single-blog-wrap">
                     <div class="thumb">
                         <img src="img/simplicity.png" alt="img">
