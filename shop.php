@@ -31,10 +31,7 @@ $pageTitle = "Shop";
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="row justify-content-center">
-                    <div class="col-sm-6 align-self-center pb-4">
-                        <p class="mb-0">Showing 1–8 of 12 results</p>
-                    </div>
-                    <div class="col-sm-6 align-self-center pb-4">
+                    <div class="col-sm-12 align-self-center pb-4">
                         <select class="single-select float-sm-end" style="display: none;">
                             <option>Default sorting</option>
                             <option value="asc">Pizza</option>

@@ -6,7 +6,7 @@ $pageTitle = "Home";
 <div id="homeCarouselSlider" class="carousel slide indexpage" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item hero-header active">
-            <div class="container py-5 mb-5">
+            <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 text-center text-lg-start text-media my-auto">
                         <div class="free_delivery animated slideInLeft mb-3">
@@ -26,14 +26,13 @@ $pageTitle = "Home";
                         <div class="banner">
                             <img src="img/1.png" alt="">
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
         <div class="carousel-item hero-header">
-            <div class="container py-5 mb-5">
-                <div class="row align-items-center g-5">
+            <div class="container">
+                <div class="row align-items-center gy-4">
                     <div class="col-lg-6 col-md-6 text-center text-lg-start text-media my-auto">
                         <div class="free_delivery animated slideInLeft mb-3">
                             <div class="text-white text-sub">PickUp & Delivery with Us</div>
@@ -75,7 +74,7 @@ $pageTitle = "Home";
 </div>
 <section class="about section-gap">
     <div class="container">
-        <div class="row g-5 align-items-center">
+        <div class="row gy-5 align-items-center">
             <div class="col-lg-6">
                 <div class="image-group">
                     <div class="row">
@@ -94,20 +93,25 @@ $pageTitle = "Home";
                 </div>
             </div>
             <div class="col-lg-6">
-                <h1 class="mb-2">It all starts with a box.</h1>
-                <h4 class="text-animation bg-b text-font-d mb-3">Impressively easy meals from just Rs. 290 per
-                    serving</h4>
-                <p class="mb-4">TiffineBatta.com is an emerging Nutritional based subscription food delivery platform
-                    dealing in an extensive range of Food menu provided on a single platform to bring a reliable,
-                    hassle-free, and convenient experience. Our goal at TiffineBatta.com is providing ultimate modern
-                    solution for customers to Health oriented Nutrition food problem for quality product and Better
-                    delivery
-                    <br>
-                    Customer satisfaction, trust, transparency, and commitment are the terms that define us and we work
-                    day and night to make your Online food experience
-                </p>
-                <a class="btn btn-main py-3 px-5 mt-2" href="">Know More <i class="fas fa-arrow-right ml-3"></i>
-                    </i></a>
+                <div class="about-padding">
+                    <h1 class="mb-2">It all starts with a box.</h1>
+                    <h4 class="text-animation bg-b text-font-d mb-3">Impressively easy meals from just Rs. 290 per
+                        serving</h4>
+                    <p class="mb-4">TiffineBatta.com is an emerging Nutritional based subscription food delivery
+                        platform
+                        dealing in an extensive range of Food menu provided on a single platform to bring a reliable,
+                        hassle-free, and convenient experience. Our goal at TiffineBatta.com is providing ultimate
+                        modern
+                        solution for customers to Health oriented Nutrition food problem for quality product and Better
+                        delivery
+                        <br>
+                        Customer satisfaction, trust, transparency, and commitment are the terms that define us and we
+                        work
+                        day and night to make your Online food experience
+                    </p>
+                    <a class="btn btn-main py-3 px-5 mt-2" href="">Know More <i class="fas fa-arrow-right ml-3"></i>
+                        </i></a>
+                </div>
             </div>
         </div>
 </section>
@@ -712,14 +716,14 @@ $pageTitle = "Home";
 </section>
 <section class="off">
     <div class="container">
-        <div class="row align-items-center g-5">
+        <div class="row align-items-center gy-5">
             <div class="col-lg-6 text-center text-lg-left">
                 <h1 class="display-3 text-white animated slideInLeft mb-4">We Have <span
                         class="color-sec">Excellent</span>
                     Of <span class="color-sec">Quality</span> Food</h1>
 
                 <a href="" class="btn btn-main py-sm-3 px-sm-5 me-3 animated slideInLeft">See All Menu <i
-                        class="fas fa-arrow-right ml-3"></i></a>
+                        class="fas fa-arrow-right ms-3"></i></a>
             </div>
             <div class="col-lg-6 text-center text-lg-right overflow-hidden">
                 <div class="off-img">
@@ -861,7 +865,6 @@ $pageTitle = "Home";
                     <h2 class="c-title">What Our Client Says</h2>
                 </div>
                 <div class="owl-carousel owl-theme testi pt-4">
-
                     <div class="item">
                         <div class="shadow-class row">
                             <div class="col-lg-12 col-md-12">
@@ -879,7 +882,6 @@ $pageTitle = "Home";
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="item">
                         <div class="shadow-class row">

@@ -1074,6 +1074,12 @@ ul.clean {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 120px 0;
+}
+@media only screen and (max-width : 576px) {
+  .hero-header {
+    padding: 100px 0 0 0;
+  }
 }
 .hero-header .text-desc {
   font-size: 20px;
@@ -1187,6 +1193,14 @@ ul.clean {
 
 .about {
   position: relative;
+}
+.about .about-padding {
+  padding-left: 20px;
+}
+@media only screen and (max-width : 576px) {
+  .about .about-padding {
+    padding-left: 0;
+  }
 }
 .about .aboutImg {
   z-index: 2;
@@ -1304,6 +1318,11 @@ ul.clean {
   display: inline-block;
   margin: 0 5px;
 }
+@media only screen and (max-width : 576px) {
+  .special-menu .special-tab li {
+    margin: 10px;
+  }
+}
 .special-menu .special-tab a {
   display: inline-block;
   color: #000;
@@ -1318,7 +1337,7 @@ ul.clean {
 }
 @media only screen and (max-width : 576px) {
   .special-menu .special-tab a {
-    padding: 5px 8px;
+    padding: 10px 20px;
     font-size: 13px;
   }
 }
@@ -1707,6 +1726,11 @@ ul.clean {
 .breadcrumb-area .banner-inner {
   padding: 150px 0 100px;
 }
+@media only screen and (max-width : 576px) {
+  .breadcrumb-area .banner-inner {
+    padding: 120px 0 10px;
+  }
+}
 .breadcrumb-area .banner-inner h3 {
   color: #fcb302;
   font-family: "Satisfy", cursive;
@@ -1721,6 +1745,12 @@ ul.clean {
   font-size: 54px;
   line-height: 65px;
   margin-bottom: 20px;
+}
+@media only screen and (max-width : 576px) {
+  .breadcrumb-area .banner-inner h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
 }
 .breadcrumb-area .banner-bg-img {
   background-size: 108% 179% !important;
@@ -2288,6 +2318,12 @@ ul.clean {
   display: inline-block;
   padding: 0 22px;
 }
+@media only screen and (max-width : 576px) {
+  .shop-details-area .shop-item-details .cat li {
+    display: block;
+    padding: 0;
+  }
+}
 .shop-details-area .shop-item-details .cat li:first-child {
   padding-left: 0;
 }
@@ -2305,6 +2341,11 @@ ul.clean {
   font-size: 20px;
   font-weight: 600;
   padding: 0 24px;
+}
+@media only screen and (max-width : 576px) {
+  .shop-details-area .shop-item-details .shop-tabs .nav-pills .nav-item .nav-link {
+    padding: 0 15px 0 0;
+  }
 }
 .shop-details-area .shop-item-details .shop-tabs .nav-pills .nav-item .nav-link.active {
   background: transparent;
@@ -2396,7 +2437,7 @@ form .quantity input {
   width: 47px;
   text-align: center;
   cursor: pointer;
-  margin-left: -3px;
+  margin-left: -4px;
 }
 form .quantity input.minus {
   border-radius: 6px 0 0 6px;
@@ -2482,6 +2523,12 @@ form .quantity input:focus {
   content: "-" !important;
 }
 
+@media only screen and (max-width : 576px) {
+  .cart-area .promotional-area button {
+    margin: 10px 0;
+    width: 100%;
+  }
+}
 .cart-area .promotional-area .py-3 {
   padding-top: 0.85rem !important;
   padding-bottom: 0.85rem !important;
@@ -2499,6 +2546,16 @@ form .quantity input:focus {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+}
+@media only screen and (max-width : 576px) {
+  .cart-area .table tr th {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  .cart-area .table tr th img {
+    width: 100%;
+    height: 100px;
+  }
 }
 .cart-area .table tr th.blank {
   border-left: 0;
@@ -2826,6 +2883,11 @@ form .quantity input:focus {
   border-radius: 0 0 12px 12px;
   margin-bottom: 30px;
   border-bottom: none;
+}
+@media only screen and (max-width : 576px) {
+  .bill-payment-wrap .default-form-wrap {
+    padding: 30px;
+  }
 }
 .bill-payment-wrap .default-form-wrap label {
   font-size: 20px;
@@ -3443,9 +3505,6 @@ label {
   .off {
     background-attachment: scroll;
   }
-  .free-delivery-section .free_delivery_detail::after {
-    left: 22%;
-  }
 }
 @media (max-width: 600px) {
   .indexpage .carousel-inner {
@@ -3466,8 +3525,8 @@ label {
     display: none !important;
   }
   .heading1 {
-    font-size: 39px;
-    line-height: 40px;
+    font-size: 29px;
+    line-height: 30px;
   }
   .ban_image.img-1 {
     display: none;
