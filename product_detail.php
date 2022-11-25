@@ -102,10 +102,9 @@ $pageTitle = "Product Detail";
                     </div>
                     <form>
                         <div class="quantity buttons_added">
-                            <input type="button" value="-" class="minus">
-                            <input type="number" class="input-text qty text" step="1" min="1" max="10000"
-                                name="quantity" value="1">
-                            <input type="button" value="+" class="plus">
+                            <input type="button" value="-" class="minus" onclick="decrease()">
+                            <input type="number" class="input-text qty-input text" value="1">
+                            <input type="button" value="+" class="plus" onclick="increase()">
                         </div>
                         <button type="submit" class="btn theme-btn py-3 px-4">ADD TO CART</button>
                     </form>

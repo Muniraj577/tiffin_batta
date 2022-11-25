@@ -166,3 +166,17 @@ rangeInput.forEach((input) => {
         }
     });
 });
+
+function decrease(){
+    var qty = $(".qty-input").val();
+    if (qty > 1) {
+        var new_qty = parseInt(qty) - 1;
+        $(".qty-input").val(new_qty);
+    }
+}
+
+function increase(){
+    var qty = $(".qty-input").val();
+    var new_qty = parseInt(qty) + 1;
+    $(".qty-input").val(new_qty);
+}
