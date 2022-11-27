@@ -485,7 +485,7 @@ label {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 120px 0;
+  padding: 140px 0;
 }
 @media only screen and (max-width : 576px) {
   .hero-header {
@@ -596,10 +596,6 @@ label {
 
 .index-testi .owl-theme .owl-nav {
   display: none;
-}
-
-.indexpage .carousel-inner {
-  padding-top: 78px;
 }
 
 .about {

@@ -3,7 +3,39 @@ $pageTitle = "Home";
 ?>
 <?php include 'includes/header.php'?>
 
-<div id="homeCarouselSlider" class="carousel slide indexpage" data-bs-ride="carousel">
+<section class="hero-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 text-center text-lg-start text-media my-auto">
+                <div class="free_delivery animated slideInLeft mb-3">
+                    <div class="text-white text-sub text-uppercase">Subscribe our meal plans</div>
+                </div>
+                <h1 class="display-3 animated slideInLeft heading1">Different spice for a
+                    <br>Different taste
+                </h1>
+                <p class="animated slideInLeft pt-3 pb-4 text-desc">You need not only Just Food Stalls with
+                    Persons
+                    but also specialized equipment start the
+                    Fast Food</p>
+                <a href="order.php" class="btn btn-main py-sm-2 px-sm-4 me-3 animated slideInLeft"><i
+                        class="fa-solid fa-cart-shopping me-2"></i>Get It Now</a>
+            </div>
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="banner">
+                    <img src="img/1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ban_image img-1 wow animate__slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+        <img src="img/bg.png" alt="" class="img-fluid">
+    </div>
+
+    <div class="ban_image img-3 wow animate__slideInLeft" data-wow-delay="0.4s" data-wow-duration="1s">
+        <img src="./img/slider_shape2.png" alt="" class="img-fluid">
+    </div>
+</section>
+<!-- <div id="homeCarouselSlider" class="carousel slide indexpage" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item hero-header active">
             <div class="container">
@@ -71,7 +103,7 @@ $pageTitle = "Home";
         <img src="./img/slider_shape2.png" alt="" class="img-fluid">
     </div>
 
-</div>
+</div> -->
 <section class="about section-gap">
     <div class="container">
         <div class="row gy-5 align-items-center">
