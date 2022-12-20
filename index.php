@@ -2,8 +2,10 @@
 $pageTitle = "Home";
 ?>
 <?php include 'includes/header.php'?>
-
-<section class="hero-header">
+<section class="main-banner">
+    <img src="img/banner.jpg" alt="">
+</section>
+<!-- <section class="hero-header">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 text-center text-lg-start text-media my-auto">
@@ -34,7 +36,7 @@ $pageTitle = "Home";
     <div class="ban_image img-3 wow animate__slideInLeft" data-wow-delay="0.4s" data-wow-duration="1s">
         <img src="./img/slider_shape2.png" alt="" class="img-fluid">
     </div>
-</section>
+</section> -->
 <!-- <div id="homeCarouselSlider" class="carousel slide indexpage" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item hero-header active">
