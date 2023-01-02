@@ -26,16 +26,25 @@ $pageTitle = "Product Detail";
                             <div class="img-item">
                                 <a href="#" data-id="2">
                                     <img src="img/single-2.png" alt="product image">
+
+                                    <img src="img/3.png" alt="product image">
+
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="3">
                                     <img src="img/chillichicken.jpg" alt="product image">
+
+                                    <img src="img/4.png" alt="product image">
+                                
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="4">
                                     <img src="img/drymeat.jpg" alt="product image">
+
+                                    <img src="img/4.png" alt="product image">
+                                
                                 </a>
                             </div>
                         </div>
@@ -107,7 +116,7 @@ $pageTitle = "Product Detail";
                             <input type="number" class="input-text qty-input text" value="1">
                             <input type="button" value="+" class="plus" onclick="increase()">
                         </div>
-
+                    
                         <button type="submit" class="btn theme-btn py-3 px-4">ADD TO CART</button>
                     </form>
                     <ul class="cat">
