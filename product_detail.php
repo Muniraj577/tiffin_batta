@@ -16,6 +16,7 @@ $pageTitle = "Product Detail";
                                 <img src="img/drymeat.jpg" alt="product image">
                             </div>
                         </div>
+
                         <div class="img-select">
                             <div class="img-item">
                                 <a href="#" data-id="1">
