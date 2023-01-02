@@ -1461,3 +1461,13 @@ form
         background-position: center
         display: flex
         align-items: center
+        @media (max-width: 1024px)
+            min-height: auto
+            height: auto
+        @media #{$large-and-down}
+            min-height: auto
+            height: auto
+        @media #{$small-only}
+            min-height: auto
+            height: auto
+

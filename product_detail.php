@@ -11,9 +11,9 @@ $pageTitle = "Product Detail";
                         <div class="img-display">
                             <div class="img-showcase">
                                 <img src="img/01.png" alt="product image">
-                                <img src="img/3.png" alt="product image">
-                                <img src="img/4.png" alt="product image">
-                                <img src="img/4.png" alt="product image">
+                                <img src="img/single-2.png" alt="product image">
+                                <img src="img/chillichicken.jpg" alt="product image">
+                                <img src="img/drymeat.jpg" alt="product image">
                             </div>
                         </div>
                         <div class="img-select">
@@ -24,17 +24,17 @@ $pageTitle = "Product Detail";
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="2">
-                                    <img src="img/3.png" alt="product image">
+                                    <img src="img/single-2.png" alt="product image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="3">
-                                    <img src="img/4.png" alt="product image">
+                                    <img src="img/chillichicken.jpg" alt="product image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="4">
-                                    <img src="img/4.png" alt="product image">
+                                    <img src="img/drymeat.jpg" alt="product image">
                                 </a>
                             </div>
                         </div>

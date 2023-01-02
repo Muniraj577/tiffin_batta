@@ -2309,6 +2309,24 @@ form .quantity input:focus {
   display: flex;
   align-items: center;
 }
+@media (max-width: 1024px) {
+  .home-slider .carousel-inner {
+    min-height: auto;
+    height: auto;
+  }
+}
+@media only screen and (max-width : 991px) {
+  .home-slider .carousel-inner {
+    min-height: auto;
+    height: auto;
+  }
+}
+@media only screen and (max-width : 576px) {
+  .home-slider .carousel-inner {
+    min-height: auto;
+    height: auto;
+  }
+}
 
 /*********************************************************************************************************************************/
 /*********************************************************** S.T.Y.L.E ***********************************************************/
